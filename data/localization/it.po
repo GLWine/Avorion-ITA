@@ -5740,13 +5740,13 @@ msgstr "Nessun \"contenitore protetto\" attraccato."
 
 #: ./Common/Scripts/dlc/blackmarket/entity/merchants/crackcontainers.lua:
 msgid "Security: ${level}"
-msgstr "Sicurezza: ${livello}"
+msgstr "Sicurezza: ${level}"
 
 #: ./Common/Scripts/dlc/blackmarket/entity/merchants/crackcontainers.lua:
 #: ./data/scripts/entity/crewboard.lua: ./data/scripts/entity/insurance.lua:
 #: ./data/scripts/entity/merchants/repairdock.lua:
 msgid "¢${price}"
-msgstr "¢${prezzo}"
+msgstr "¢${price}"
 
 #: ./Common/Scripts/dlc/blackmarket/entity/merchants/crackcontainers.lua:
 msgctxt "context is opening a container forcefully by hacking"
@@ -7957,7 +7957,7 @@ msgstr ""
 "\n"
 "Se combatterai per me, potremo fare del bene e aiutare gli innocenti contro le piaghe degli Xsotan e dei pirati.\n"
 "\n"
-"${nome}, da che parte combatterai?"
+"${name}, da che parte combatterai?"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/cavaliers/cavaliersmission4.lua:
 msgid "On your side."
@@ -9469,7 +9469,7 @@ msgstr "Consegnare i volantini al settore (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission2.lua:
 msgid "Bring them to Ice Mine ${stationName}"
-msgstr "Portateli alla Miniera di Ghiaccio ${nomeStazione}"
+msgstr "Portateli alla Miniera di Ghiaccio ${stationName}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission2.lua:
 msgid "Take the leaflets to sector (${x}:${y}) instead"
@@ -9477,7 +9477,7 @@ msgstr "Portate invece i volantini al settore (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission2.lua:
 msgid "Deliver the leaflets to Water Collector ${stationName}"
-msgstr "Consegnate i volantini al Collettore dell'acqua ${nome stazione}."
+msgstr "Consegnate i volantini al Collettore dell'acqua ${stationName}."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission2.lua:
 msgid "Go to sector (${x}:${y}) and pick up the next load of leaflets"
@@ -10574,16 +10574,16 @@ msgstr "Incontrare il contatto nel settore (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "Ask for Juliana's contact at ${title} ${name}"
-msgstr "Chiedete il contatto di Juliana a ${titolo} ${nome}"
+msgstr "Chiedete il contatto di Juliana a ${title} ${name}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "Ask for the care package at the Trading Post ${name}"
-msgstr "Chiedete il pacchetto al Trading Post ${nome}"
+msgstr "Chiedete il pacchetto al Trading Post ${name}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "Deliver the supplies to the coal mine ${name} in sector (${x}:${y})"
 msgstr ""
-"Consegnare i rifornimenti alla miniera di carbone ${nome} nel settore "
+"Consegnare i rifornimenti alla miniera di carbone ${name} nel settore "
 "(${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
@@ -10613,7 +10613,7 @@ msgstr "Ritorno al settore (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "Give the weapons to Steward Sparrow at the coal mine ${name}"
-msgstr "Date le armi all'intendente Sparrow alla miniera di carbone ${nome}"
+msgstr "Date le armi all'intendente Sparrow alla miniera di carbone ${name}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "Wait for the corrupt officials to show up"
@@ -10895,7 +10895,7 @@ msgstr "La vostra alleanza non vi permette di farlo."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "You don't have enough money. You need to pay ${price} Credits."
-msgstr "Non hai abbastanza soldi. Devi pagare ${prezzo} Crediti."
+msgstr "Non hai abbastanza soldi. Devi pagare ${price} Crediti."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "Looks like you don't have enough cargo space."
@@ -10911,7 +10911,7 @@ msgid ""
 "${name} in sector (${x}:${y})."
 msgstr ""
 "Ecco a voi. La consegna è segnata per andare all'intendente Sparrow nella "
-"miniera di carbone ${nome} nel settore (${x}:${y})."
+"miniera di carbone ${name} nel settore (${x}:${y})."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/commune/communemission4.lua:
 msgid "The care package, right. Where do I have it? ..."
@@ -13100,7 +13100,7 @@ msgstr ""
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/family/familymission2.lua:
 msgid "Trade Logs of Market ${name}. Proceed?"
-msgstr "Registri commerciali del mercato ${nome}. Procedere?"
+msgstr "Registri commerciali del mercato ${name}. Procedere?"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/family/familymission2.lua:
 msgid ""
@@ -13301,7 +13301,7 @@ msgstr ""
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/family/familymission3.lua:
 msgid "Ask for information at ${stationTitle} ${stationName}"
-msgstr "Chiedete informazioni a ${stazioneTitolo} ${nomeStazione}"
+msgstr "Chiedete informazioni a ${stationTitle} ${stationName}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/family/familymission3.lua:
 msgid "Use your ship's computer to analyze the data chip"
@@ -15209,7 +15209,7 @@ msgstr "Ok, torno subito."
 #: ./data/scripts/player/missions/settlertreck/settlertreck.lua:
 #: ./data/scripts/player/missions/transfervessel.lua:
 msgid "¢${reward}"
-msgstr "¢${ricompensa}"
+msgstr "¢${reward}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission1.lua:
 msgid ""
@@ -15495,7 +15495,7 @@ msgstr "Vai al contatto di Izzy nel settore (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission3.lua:
 msgid "Pick up the package at ${stationTitle} ${stationName}"
-msgstr "Ritirare il pacchetto presso ${stationTitle} ${nomeStazione}"
+msgstr "Ritirare il pacchetto presso ${stationTitle} ${stationName}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission3.lua:
 msgid "Take the package to sector (${x}:${y})"
@@ -15503,17 +15503,17 @@ msgstr "Porta il pacchetto nel settore (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission3.lua:
 msgid "Deliver it to the ${stationTitle} ${stationName}"
-msgstr "Consegnatelo alla ${stazioneTitolo} ${nomeStazione}"
+msgstr "Consegnatelo alla ${stationTitle} ${stationName}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission3.lua:
 msgid "[Pick Up Package]"
-msgstr "[Pacchetto Pick Up]"
+msgstr "[Ritira il pacco]"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission3.lua:
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission4.lua:
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission4.lua:
 msgid "[Deliver Package]"
-msgstr "[Consegna pacchetto]"
+msgstr "[Consegna il Pacco]"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission3.lua:
 msgid "You must be docked to the station to collect the package."
@@ -15715,7 +15715,7 @@ msgstr "Difendere la propria posizione e difendere il pacchetto"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission4.lua:
 msgid "Go to station ${stationTitle} ${stationName}"
-msgstr "Vai alla stazione ${stationTitle} ${nomeStazione}"
+msgstr "Vai alla stazione ${stationTitle} ${stationName}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/intro/storyintromission4.lua:
 msgid "[I lost the package]"
@@ -16073,7 +16073,7 @@ msgstr "Ottenere la terza reliquia nel settore (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission1.lua:
 msgid "[Deliver Relics]"
-msgstr "[Consegnare Reliquie]"
+msgstr "[Consegna Reliquie]"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission1.lua:
 #: ./data/scripts/player/missions/searchandrescue/searchandrescue.lua:
@@ -16680,7 +16680,7 @@ msgstr "Raccogliere il gettone dell'Hackathon"
 msgid ""
 "Now hack the container in sector (${x}:${y}). Only ${amount} more to go!"
 msgstr ""
-"Ora hackera il container nel settore (${x}:${y}). Manca solo ${importo}!"
+"Ora hackera il container nel settore (${x}:${y}). Manca solo ${amount}!"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission3.lua:
 msgid "Return to the Game Master in sector (${x}:${y})"
@@ -16700,7 +16700,7 @@ msgid ""
 "to go!"
 msgstr ""
 "Ora hackera il container nel settore (${xCoord}:${yCoord}). Manca solo "
-"${importo}!"
+"${amount}!"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission3.lua:
 msgid "Hackathon Game Master"
@@ -16862,11 +16862,11 @@ msgstr "Attraccare il container e consegnarlo a (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission4.lua:
 msgid "[Hear Riddle Again]"
-msgstr "[Ascolta di nuovo l'indovinello]"
+msgstr "[Riascolta l'indovinello]"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission4.lua:
 msgid "The Missing Container"
-msgstr "Il contenitore mancante"
+msgstr "Il Contenitore Mancante"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/sidemissions/sidemission4.lua:
 msgid "Defeat the pirates, dock the container and deliver it to (${x}:${y})"
@@ -17335,7 +17335,7 @@ msgstr "Indagare sulla chiamata di emergenza."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission2.lua:
 msgid "Defend ${name} from the pirates"
-msgstr "Difendi ${nome} dai pirati"
+msgstr "Difendi ${name} dai pirati"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission2.lua:
 msgid "Help! I'm under attack! We need help!"
@@ -17418,7 +17418,7 @@ msgstr "Un altro che manomette i nostri oggetti di valore."
 # ==========
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission4.lua:
 msgid "Sneaky Delivery"
-msgstr "Consegna furtiva"
+msgstr "Consegna Furtiva"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission4.lua:
 msgid "Deliver a suspicious package."
@@ -17434,7 +17434,7 @@ msgstr "Consegnare il pacchetto al mercato nero in (${x}:${y})"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission4.lua:
 msgid "The black market is in ${title} ${name}"
-msgstr "Il mercato nero è in ${titolo} ${nome}"
+msgstr "Il mercato nero è in ${title} ${name}"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission4.lua:
 msgid "Please hand over the package."
@@ -17474,7 +17474,7 @@ msgstr "Risolvere il problema dei pirati."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission5.lua:
 msgid "${current} / ${total} pirates destroyed"
-msgstr "${attuale} / ${totale} pirati distrutti"
+msgstr "${current} / ${total} pirati distrutti"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission5.lua:
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission6.lua:
@@ -17513,7 +17513,7 @@ msgstr "Spingete indietro l'Xsotan."
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission6.lua:
 msgid "${current} / ${total} Xsotan destroyed"
-msgstr "${corrente} / ${totale} Xsotan distrutto"
+msgstr "${current} / ${total} Xsotan distrutto"
 
 #: ./Common/Scripts/dlc/blackmarket/player/missions/trader/blackmarkettradermission6.lua:
 msgctxt "Mail Subject"
@@ -18329,7 +18329,7 @@ msgstr "Utilizzo una tantum"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/cargodetectionscrambler.lua:
 msgid "Chance of ${probability}% to not be destroyed"
-msgstr "Probabilità di ${probabilità}% di non essere distrutti"
+msgstr "Probabilità di ${probability}% di non essere distrutti"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/cargodetectionscrambler.lua:
 msgid "Shields your cargo bay during inspections"
@@ -18343,11 +18343,11 @@ msgstr "Evita le multe durante le ispezioni"
 # ==========
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "Exploit"
-msgstr "Sfruttare"
+msgstr "Exploit"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "Script"
-msgstr "Scrittura"
+msgstr "Script"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "Code"
@@ -18355,11 +18355,11 @@ msgstr "Codice"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "Ghost"
-msgstr "Fantasma"
+msgstr "Ghost"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "Shadow"
-msgstr "Ombra"
+msgstr "Shadow"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "0 Day"
@@ -18371,7 +18371,7 @@ msgstr "Blackout"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "${rarity} Injector ${serialNumber}"
-msgstr "${rarità} Iniettore ${numero di serie}"
+msgstr "${rarity} Iniettore ${serialNumber}"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgctxt "generic name for '${rarity} Injector ${serialNumber}'"
@@ -18380,13 +18380,13 @@ msgstr "Iniettore"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "Hacking Range"
-msgstr "Gamma di hacking"
+msgstr "Portata di Hacking"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 #: ./Common/Scripts/dlc/rift/systems/miningcarrierhybrid.lua:
 #: ./data/scripts/systems/valuablesdetector.lua:
 msgid "Detection Range"
-msgstr "Campo di rilevamento"
+msgstr "Portata di Rilevamento"
 
 #: ./Common/Scripts/dlc/blackmarket/systems/hackingupgrade.lua:
 msgid "Can hack containers up to security level %i."
@@ -19572,7 +19572,7 @@ msgstr "Centro di ricerca Rift"
 
 #: ./Common/Scripts/dlc/rift/entity/riftresearchcenter.lua:
 msgid "${entity} Mission Board"
-msgstr "${entità} Consiglio della Missione"
+msgstr "${entity} Consiglio della Missione"
 
 #: ./Common/Scripts/dlc/rift/entity/riftresearchcenter.lua:
 msgid "Mission Board"
@@ -19635,7 +19635,7 @@ msgstr "Richiesta di nuove missioni"
 
 #: ./Common/Scripts/dlc/rift/entity/riftresearchcenter.lua:
 msgid "Request new missions (${num} Rift Research Data)"
-msgstr "Richiedi nuove missioni (${num} Dati di ricerca Rift)"
+msgstr "Richiedi nuove missioni (${num} Dati di ricerca sul Rift)"
 
 #: ./Common/Scripts/dlc/rift/entity/riftresearchcenter.lua:
 msgid "Cost: ${num}  You: ${have}"
@@ -20118,7 +20118,7 @@ msgstr "Stato: PERICOLO!"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "${player}'s fleet exceeds total mass: ${percentage}%."
-msgstr "La flotta di ${giocatore} supera la massa totale: ${percentuale}%."
+msgstr "La flotta di ${player} supera la massa totale: ${percentage}%."
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "Protection from Rift Environment: insufficient."
@@ -20130,7 +20130,7 @@ msgstr "Navi interessate:"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "${shipName}"
-msgstr "${nome nave}"
+msgstr "${shipName}"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid ", "
@@ -20138,7 +20138,7 @@ msgstr ","
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "Report regarding ${shipName}"
-msgstr "Rapporto relativo a ${nome nave}"
+msgstr "Rapporto relativo a ${shipName}"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 #: ./Client/ClientUI/Menu/ModSaveGameIssuesWindow.cpp:
@@ -20171,15 +20171,15 @@ msgstr "Continua"
 #: ./data/scripts/player/map/mapcommands.lua:
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Cancel"
-msgstr "Annullamento"
+msgstr "Annulla"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "Detailed report regarding ${shipName}:"
-msgstr "Rapporto dettagliato su ${nome nave}:"
+msgstr "Rapporto dettagliato su ${shipName}:"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "${effectName}: ${text}"
-msgstr "${effectName}: ${testo}"
+msgstr "${effectName}: ${text}"
 
 #: ./Common/Scripts/dlc/rift/player/riftmission.lua:
 msgid "Back"
@@ -20222,11 +20222,11 @@ msgstr "OBIETTIVO SECONDARIO"
 
 #: ./Common/Scripts/dlc/rift/player/riftmissionreward.lua:
 msgid "+${relations} Relations"
-msgstr "+${relazioni} Relazioni"
+msgstr "+${relations} Relazioni"
 
 #: ./Common/Scripts/dlc/rift/player/riftmissionreward.lua:
 msgid "+${amount} Rift Research Data"
-msgstr "+${importo} Dati di ricerca Rift"
+msgstr "+${amount} Dati di ricerca Rift"
 
 # ==========
 # ./Common/Scripts/dlc/rift/player/story/riftstorymission1-rescue.lua
@@ -21944,7 +21944,7 @@ msgstr ""
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/combat.lua:
 msgid "${count}/${total} Monoliths"
-msgstr "${conteggio}/${totale} Monoliti"
+msgstr "${count}/${total} Monoliti"
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/combat.lua:
 msgid "Extract the Xsotan Core from the large Xsotan"
@@ -22226,7 +22226,7 @@ msgstr ""
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/rescuescientists.lua:
 msgid "Captain ${name}"
-msgstr "Capitano ${nome}"
+msgstr "Capitano ${name}"
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/rescuescientists.lua:
 msgid ""
@@ -22390,11 +22390,11 @@ msgstr "Recuperare i rottami scannerizzati per recuperare i beni."
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/salvagegoods.lua:
 msgid "Collect ${good}: ${numCollected} / ${numToCollect}"
-msgstr "Raccogliere ${bene}: ${numCollected} / ${numToCollect}"
+msgstr "Raccogliere ${good}: ${numCollected} / ${numToCollect}"
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/salvagegoods.lua:
 msgid "(optional) Collect more ${good} to earn a bonus"
-msgstr "(facoltativo) Raccogliere altri ${buoni} per guadagnare un bonus."
+msgstr "(facoltativo) Raccogliere altri ${good} per guadagnare un bonus."
 
 #: ./Common/Scripts/dlc/rift/sector/missionobjectives/salvagegoods.lua:
 msgid "(optional) ${numCollected} / ${numToCollect} collected"
@@ -22749,7 +22749,7 @@ msgstr "Potenziatore del generatore"
 
 #: ./Common/Scripts/dlc/rift/systems/arbitrarytcsenergyhybrid.lua:
 msgid "Combat ${name} ${ids}-TCS-${num}"
-msgstr "Combattere ${nome} ${ids}-TCS-${num}"
+msgstr "Combattere ${name} ${ids}-TCS-${num}"
 
 #: ./Common/Scripts/dlc/rift/systems/arbitrarytcsenergyhybrid.lua:
 msgctxt "generic name for 'Combat ${name} ${ids}-TCS-${num}'"
@@ -22824,7 +22824,7 @@ msgctxt "ex: Disassembler-Class Carrier Controller FCS-3-243"
 msgid "Combat Carrier Controller FCS-${squads}-${turrets}${pdcs}${autos}"
 msgstr ""
 "Controllore della portaerei da combattimento "
-"FCS-${squadre}-${torrette}${pdcs}${autos}"
+"FCS-${squads}-${turrets}${pdcs}${autos}"
 
 #: ./Common/Scripts/dlc/rift/systems/combatcarrierhybrid.lua:
 msgctxt ""
@@ -22914,7 +22914,7 @@ msgstr "Energetico"
 #: ./data/scripts/systems/hyperspacebooster.lua:
 msgctxt "ex: Unveiling R-4 Hyperspace Enhancer MK IV"
 msgid "${prefix} ${reach}${type} MK ${mark}"
-msgstr "${prefisso} ${reach}${tipo} MK ${marchio}"
+msgstr "${prefix} ${reach}${type} MK ${mark}"
 
 #: ./Common/Scripts/dlc/rift/systems/energyhyperspaceboosterhybrid.lua:
 msgctxt "generic name for '${prefix} ${reach}${type} MK ${mark}'"
@@ -22990,12 +22990,12 @@ msgstr "Protettore"
 #: ./Common/Scripts/dlc/rift/systems/energyshieldboosterhybrid.lua:
 msgctxt "ex: 1Q-4000 Reviving Shield Booster"
 msgid "${serial}-${rarity} Energizing Reviving ${name}"
-msgstr "${serial}-${rarity} Energizzante Ravvivante ${nome}"
+msgstr "${serial}-${rarity} Energizzante Ravvivante ${name}"
 
 #: ./Common/Scripts/dlc/rift/systems/energyshieldboosterhybrid.lua:
 msgctxt "ex: 1Q-4000 Shielder"
 msgid "${serial}-${rarity} Energizing ${name}"
-msgstr "${seriale}-${rarità} Energizzare ${nome}"
+msgstr "${serial}-${rarity} Energizzare ${name}"
 
 #: ./Common/Scripts/dlc/rift/systems/energyshieldboosterhybrid.lua:
 msgctxt "generic name for '${serial}-${rarity} Energizing ${name}'"
@@ -23074,11 +23074,11 @@ msgstr[1] "Questo effetto può verificarsi solo una volta ogni ${i} minuti."
 # ==========
 #: ./Common/Scripts/dlc/rift/systems/hypertradingsystem.lua:
 msgid "Long-Distance-Trader v${version}.${patch}"
-msgstr "Trader a lunga distanza v${versione}.${patch}"
+msgstr "Trader a lunga distanza v${version}.${patch}"
 
 #: ./Common/Scripts/dlc/rift/systems/hypertradingsystem.lua:
 msgid "Hyper-Trader v${version}.${patch}"
-msgstr "Hyper-Trader v${versione}.${patch}"
+msgstr "Hyper-Trader v${version}.${patch}"
 
 #: ./Common/Scripts/dlc/rift/systems/hypertradingsystem.lua:
 msgid "Salesman's Best Friend v${version}.${patch}"
@@ -23086,7 +23086,7 @@ msgstr "Il miglior amico del venditore v${version}.${patch}"
 
 #: ./Common/Scripts/dlc/rift/systems/hypertradingsystem.lua:
 msgid "Over-Tech Trading Subsystem v${version}.${patch}"
-msgstr "Sottosistema di trading Over-Tech v${versione}.${patch}"
+msgstr "Sottosistema di trading Over-Tech v${version}.${patch}"
 
 #: ./Common/Scripts/dlc/rift/systems/hypertradingsystem.lua:
 #: ./data/scripts/systems/tradingoverview.lua:
@@ -23109,7 +23109,7 @@ msgstr "Distanza di attracco"
 #: ./data/scripts/systems/teleporterkey5.lua:
 #: ./data/scripts/systems/transportersoftware.lua:
 msgid "+${distance} km"
-msgstr "+${distanza} km"
+msgstr "+${distance} km"
 
 #: ./Common/Scripts/dlc/rift/systems/hypertradingsystem.lua:
 #: ./data/scripts/systems/transportersoftware.lua:
@@ -23205,7 +23205,7 @@ msgstr "Svelamento"
 #: ./Common/Scripts/dlc/rift/systems/militarytcshyperspacehybrid.lua:
 msgctxt "ex: Unveiling R-4 Combat Hyperspace Enhancer"
 msgid "${prefix} ${reach}${type} ${ids}-TCS-${num}"
-msgstr "${prefisso} ${reach}${type} ${ids}-TCS-${num}"
+msgstr "${prefix} ${reach}${type} ${ids}-TCS-${num}""
 
 #: ./Common/Scripts/dlc/rift/systems/militarytcshyperspacehybrid.lua:
 msgctxt "generic name for '${prefix} ${reach}${type} ${ids}-TCS-${num}'"
@@ -23229,7 +23229,7 @@ msgstr "Egida"
 #: ./Common/Scripts/dlc/rift/systems/militarytcsshieldhybrid.lua:
 msgctxt "ex: 1Q-4000 Shielder"
 msgid "${serial}-${rarity} Combat ${name}"
-msgstr "${seriale}-${rarità} Combattimento ${nome}"
+msgstr "${serial}-${rarity} Combattimento ${name}"
 
 #: ./Common/Scripts/dlc/rift/systems/militarytcsshieldhybrid.lua:
 msgctxt "generic name for '${serial}-${rarity} Combat ${name}'"
@@ -23279,7 +23279,7 @@ msgstr "Classe Miner"
 msgctxt "ex: Excavator-Class Carrier Controller FCS-3-243"
 msgid "${class} Carrier Controller FCS-${squads}-${turrets}${pdcs}${autos}"
 msgstr ""
-"${classe} Controllore di portaerei FCS-${quadri}-${torrette}${pdcs}${autos}"
+"${class} Controllore di portaerei FCS-${squads}-${turrets}${pdcs}${autos}"
 
 #: ./Common/Scripts/dlc/rift/systems/miningcarrierhybrid.lua:
 msgctxt ""
@@ -23352,12 +23352,12 @@ msgstr "Viale"
 #: ./Common/Scripts/dlc/rift/systems/overshield.lua:
 msgctxt "ex: 1Q-4000 Reviving Shield Booster"
 msgid "${serial}-${rarity} Hardened Reviving ${name}"
-msgstr "${serial}-${rarity} Rinvigorente temprato ${nome}"
+msgstr "${serial}-${rarity} Rinvigorente temprato ${name}"
 
 #: ./Common/Scripts/dlc/rift/systems/overshield.lua:
 msgctxt "ex: 1Q-4000 Shielder"
 msgid "${serial}-${rarity} Hardened ${name}"
-msgstr "${serial}-${rarity} Temprato ${nome}"
+msgstr "${serial}-${rarity} Temprato ${name}"
 
 #: ./Common/Scripts/dlc/rift/systems/overshield.lua:
 msgctxt "generic name for '${serial}-${rarity} Hardened ${name}'"
@@ -23390,7 +23390,7 @@ msgstr "Classe Salvager"
 msgctxt "ex: Disassembler-Class Carrier Controller FCS-3-243"
 msgid "${class} Carrier Controller FCS-${squads}-${turrets}${pdcs}${autos}"
 msgstr ""
-"${classe} Controllore di portaerei FCS-${quadri}-${torrette}${pdcs}${autos}"
+"${class} Controllore di portaerei FCS-${squads}-${turrets}${pdcs}${autos}"
 
 #: ./Common/Scripts/dlc/rift/systems/salvagingcarrierhybrid.lua:
 msgctxt ""
@@ -23416,7 +23416,7 @@ msgstr "Anche gli amici. Tutto, in realtà."
 #: ./Common/Scripts/dlc/rift/systems/shieldcarrierhybrid.lua:
 msgctxt "ex: Guarding Assembly Controller FCS-3"
 msgid "Guarding Assembly Controller FCS-${squads}"
-msgstr "Controllore del gruppo di protezione FCS-${quadri}"
+msgstr "Controllore del gruppo di protezione FCS-${squads}"
 
 #: ./Common/Scripts/dlc/rift/systems/shieldcarrierhybrid.lua:
 msgctxt "generic name for 'Guarding Assembly Controller FCS-${squads}'"
@@ -39513,7 +39513,7 @@ msgstr ""
 
 #: ./data/scripts/dlc/rift/lib/constraints/maxmassconstraint.lua:
 msgid "${currentKT} / ${maxKT} kT mass (${ships} ships)"
-msgstr "${currentKT} / ${maxKT} kT massa (${navi} navi)"
+msgstr "${currentKT} / ${maxKT} kT massa (${ships} navi)"
 
 #: ./data/scripts/dlc/rift/lib/constraints/maxmassconstraint.lua:
 msgid "${currentKT} / ${maxKT} kT mass"
@@ -39521,11 +39521,11 @@ msgstr "${currentKT} / ${maxKT} kT massa"
 
 #: ./data/scripts/dlc/rift/lib/constraints/maxmassconstraint.lua:
 msgid "${mass} kT"
-msgstr "${massa} kT"
+msgstr "${mass} kT"
 
 #: ./data/scripts/dlc/rift/lib/constraints/maxmassconstraint.lua:
 msgid "Current Ship: ${mass} kT (${percentOfMax}%)"
-msgstr "Nave attuale: ${massa} kT (${percentOfMax}%)"
+msgstr "Nave attuale: ${mass} kT (${percentOfMax}%)"
 
 #: ./data/scripts/dlc/rift/lib/constraints/maxmassconstraint.lua:
 msgid ""
@@ -39803,19 +39803,19 @@ msgid ""
 " Turret (${rarity})"
 msgstr ""
 "PIÙ:\n"
-" Torretta (${rarità})"
+" Torretta (${rarity})"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "TELEPORT:"
-msgstr "TELEPORT:"
+msgstr "TELETRASPORTO:"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "Normal Mass"
-msgstr "Massa normale"
+msgstr "Massa Normale"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "CONSTRAINTS:"
-msgstr "COSTRI:"
+msgstr "VINCOLI:"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "EXPECTED ENVIRONMENT:"
@@ -39823,11 +39823,11 @@ msgstr "AMBIENTE PREVISTO:"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "EXPEDITION DETAILS:"
-msgstr "DETTAGLI DELLA SPEDIZIONE:"
+msgstr "DETTAGLI SPEDIZIONE:"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "Teleporter Overcharge"
-msgstr "Sovraccarico del teletrasporto"
+msgstr "Sovraccarico Teletrasporto"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "+100% Mass"
@@ -39835,7 +39835,7 @@ msgstr "+100% Massa"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "Teleporter Supercharge"
-msgstr "Supercarica del teletrasporto"
+msgstr "Tteletrasporto Sovralimentato"
 
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "+200% Mass"
@@ -39844,8 +39844,8 @@ msgstr "+200% Massa"
 #: ./data/scripts/dlc/rift/lib/riftmissionspecsui.lua:
 msgid "Subsystem (${rarity})"
 msgid_plural "${i} Subsystems (${rarity}, ${rarity2})"
-msgstr[0] "Sottosistema (${rarità})"
-msgstr[1] "${i} Sottosistemi (${rarità}, ${rarità2})"
+msgstr[0] "Sottosistema (${rarity})"
+msgstr[1] "${i} Sottosistemi (${rarity}, ${rarity2})"
 
 # ========== ./data/scripts/dlc/rift/lib/riftmissionutility.lua ==========
 #: ./data/scripts/dlc/rift/lib/riftmissionutility.lua:
@@ -40176,7 +40176,7 @@ msgstr "Campo di interferenza magnetica"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Magnetic Interference Field, intensity ${intensity}"
-msgstr "Campo di interferenza magnetica, intensità ${intensità}"
+msgstr "Campo di interferenza magnetica, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40189,7 +40189,7 @@ msgstr ""
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Energy generation too low (${energy} recommended)."
-msgstr "Generazione di energia troppo bassa (${energia} raccomandata)."
+msgstr "Generazione di energia troppo bassa (${energy} raccomandata)."
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgctxt "sector environment"
@@ -40198,7 +40198,7 @@ msgstr "Campo d'inerzia"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Inertia Field, intensity ${intensity}"
-msgstr "Campo d'inerzia, intensità ${intensità}"
+msgstr "Campo d'inerzia, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40220,7 +40220,7 @@ msgstr "Campo di plasma ad alta energia"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "High Energy Plasma Field, intensity ${intensity}"
-msgstr "Campo di plasma ad alta energia, intensità ${intensità}"
+msgstr "Campo di plasma ad alta energia, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40237,7 +40237,7 @@ msgstr "Campo di plasma a bassa energia"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Low Energy Plasma Field, intensity ${intensity}"
-msgstr "Campo di plasma a bassa energia, intensità ${intensità}"
+msgstr "Campo di plasma a bassa energia, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40254,7 +40254,7 @@ msgstr "Tempesta di ioni"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Ion Storm, intensity ${intensity}"
-msgstr "Tempesta di ioni, intensità ${intensità}"
+msgstr "Tempesta di ioni, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40271,7 +40271,7 @@ msgstr "Interferenza ionica"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Ion Interference, intensity ${intensity}"
-msgstr "Interferenza ionica, intensità ${intensità}"
+msgstr "Interferenza ionica, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40290,7 +40290,7 @@ msgstr "Radiazioni"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Strong Cosmic Radiation, intensity ${intensity}"
-msgstr "Radiazione cosmica forte, intensità ${intensità}"
+msgstr "Radiazione cosmica forte, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40312,7 +40312,7 @@ msgstr "Anomalie delle onde d'urto"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Shockwave Anomalies, intensity ${intensity}"
-msgstr "Anomalie delle onde d'urto, intensità ${intensità}"
+msgstr "Anomalie delle onde d'urto, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40329,7 +40329,7 @@ msgstr "Campo di fulmini"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Lightning Field, intensity ${intensity}"
-msgstr "Campo di fulmini, intensità ${intensità}"
+msgstr "Campo di fulmini, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40346,14 +40346,14 @@ msgstr "Nebbia acida"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Acid Fog, intensity ${intensity}"
-msgstr "Nebbia acida, intensità ${intensità}"
+msgstr "Nebbia acida, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
 "This acid fog corrodes blocks below ${material}. These will suffer constant "
 "damage. Shields are useless against the acid fog."
 msgstr ""
-"Questa nebbia acida corrode i blocchi al di sotto di ${materiale}. Questi "
+"Questa nebbia acida corrode i blocchi al di sotto di ${material}. Questi "
 "subiranno danni costanti. Gli scudi sono inutili contro la nebbia acida."
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
@@ -40402,7 +40402,7 @@ msgstr "Sciame Xsotan"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Xsotan Swarm, intensity ${intensity}"
-msgstr "Sciame Xsotan, intensità ${intensità}"
+msgstr "Sciame Xsotan, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40419,7 +40419,7 @@ msgstr "Sovraccarico della torretta Xsotan"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Xsotan Turret Overload, intensity ${intensity}"
-msgstr "Sovraccarico torretta Xsotan, intensità ${intensità}"
+msgstr "Sovraccarico torretta Xsotan, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40436,7 +40436,7 @@ msgstr "Tempra dello scafo Xsotan"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Xsotan Hull Hardening, intensity ${intensity}"
-msgstr "Xsotan Tempra dello scafo, intensità ${intensità}"
+msgstr "Xsotan Tempra dello scafo, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40454,7 +40454,7 @@ msgstr "Anomalie di gravità"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Gravity Anomalies, intensity ${intensity}"
-msgstr "Anomalie gravitazionali, intensità ${intensità}"
+msgstr "Anomalie gravitazionali, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40471,7 +40471,7 @@ msgstr "Distorsione del sottospazio"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Subspace Distortion, intensity ${intensity}"
-msgstr "Distorsione del sottospazio, intensità ${intensità}"
+msgstr "Distorsione del sottospazio, intensità ${intensity}"
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid ""
@@ -40485,7 +40485,7 @@ msgstr ""
 
 #: ./data/scripts/dlc/rift/sector/effects/environmentaleffectutility.lua:
 msgid "Not enough protection (${protection}/${intensity})."
-msgstr "Protezione insufficiente (${protezione}/${intensità})."
+msgstr "Protezione insufficiente (${protection}/${intensity})."
 
 # ========== ./data/scripts/dlc/rift/sector/outofcoverxsotanspawner.lua
 # ==========
@@ -41040,7 +41040,7 @@ msgstr "Attivare"
 # ========== ./data/scripts/entity/bulletinboard.lua ==========
 #: ./data/scripts/entity/bulletinboard.lua:
 msgid "${entity} Bulletin Board"
-msgstr "${entità} Bacheca"
+msgstr "${entity} Bacheca"
 
 #: ./data/scripts/entity/bulletinboard.lua:
 #: ./data/scripts/sector/worldbosses/deathmerchant.lua:
@@ -41177,7 +41177,7 @@ msgstr "Perché dovrei dirtelo?"
 
 #: ./data/scripts/entity/civilship.lua:
 msgid "${name} Prime used to be at (${x}:${y}), before \"The Event\" that is."
-msgstr "${nome} Prime si trovava a (${x}:${y}), prima dell'\"Evento\"."
+msgstr "${name} Prime si trovava a (${x}:${y}), prima dell'\"Evento\"."
 
 #: ./data/scripts/entity/civilship.lua:
 msgid ""
@@ -41185,7 +41185,7 @@ msgid ""
 " eaten up by a rift. Maybe one day there will be a way to travel to "
 "(${x}:${y}) once again."
 msgstr ""
-"È una tale tragedia. ${nome} Primo era l'orgoglio della nostra fazione "
+"È una tale tragedia. ${name} Primo era l'orgoglio della nostra fazione "
 "finché non è stato divorato da una spaccatura. Forse un giorno ci sarà un "
 "modo per viaggiare di nuovo verso (${x}:${y})."
 
@@ -41199,7 +41199,7 @@ msgid ""
 "\n"
 "Their home sector is at (${x}:${y})."
 msgstr ""
-"${nome} hanno preso il controllo di questo territorio. Non abbiamo più un settore domestico che ci governa.\n"
+"${name} hanno preso il controllo di questo territorio. Non abbiamo più un settore domestico che ci governa.\n"
 "\n"
 "Il loro settore domestico si trova a (${x}:${y})."
 
@@ -41215,11 +41215,11 @@ msgstr ""
 
 #: ./data/scripts/entity/civilship.lua:
 msgid "${name} Prime is at (${x}:${y})."
-msgstr "${nome} Primo è a (${x}:${y})."
+msgstr "${name} Primo è a (${x}:${y})."
 
 #: ./data/scripts/entity/civilship.lua:
 msgid "${factionName} Prime: \\s(${xCoord},${yCoord})"
-msgstr "${nomeFazione} Primo: \\s(${xCoord},${yCoord})"
+msgstr "${factionName} Primo: \\s(${xCoord},${yCoord})"
 
 # ========== ./data/scripts/entity/claim.lua ==========
 #: ./data/scripts/entity/claim.lua:
@@ -41260,11 +41260,11 @@ msgstr ""
 
 #: ./data/scripts/entity/crewboard.lua:
 msgid "CURRENT CREW (${current}/${max})"
-msgstr "EQUIPE ATTUALE (${attuale}/${max})"
+msgstr "EQUIPE ATTUALE (${current}/${max})"
 
 #: ./data/scripts/entity/crewboard.lua:
 msgid "${workforce}/${required}"
-msgstr "${forza}/${richiesta}"
+msgstr "${workforce}/${required}"
 
 #: ./data/scripts/entity/crewboard.lua:
 msgid ""
@@ -41272,7 +41272,7 @@ msgid ""
 "required crew members: ${amount}"
 msgstr ""
 "Non abbiamo bisogno di più di 100 membri supplementari dell'equipaggio. "
-"Membri dell'equipaggio aggiuntivi richiesti: ${importo}"
+"Membri dell'equipaggio aggiuntivi richiesti: ${amount}"
 
 #: ./data/scripts/entity/crewboard.lua:
 msgid "There's already a transport on the way."
@@ -41423,7 +41423,7 @@ msgstr "Questa azione è irreversibile."
 
 #: ./data/scripts/entity/derelictminefounder.lua:
 msgid "You're about to turn your mine into a ${factory}.\n"
-msgstr "State per trasformare la vostra miniera in una ${fabbrica}.\n"
+msgstr "State per trasformare la vostra miniera in una ${factory}.\n"
 
 #: ./data/scripts/entity/derelictminefounder.lua:
 #: ./data/scripts/entity/derelictstationfounder.lua:
@@ -41499,7 +41499,7 @@ msgstr "Altre stazioni"
 
 #: ./data/scripts/entity/derelictstationfounder.lua:
 msgid "You're about to turn your station into a ${factory}.\n"
-msgstr "State per trasformare la vostra stazione in una ${fabbrica}.\n"
+msgstr "State per trasformare la vostra stazione in una ${factory}.\n"
 
 #: ./data/scripts/entity/derelictstationfounder.lua:
 msgid "If required, it will receive production extensions.\n"
@@ -41507,7 +41507,7 @@ msgstr "Se necessario, riceverà estensioni della produzione.\n"
 
 #: ./data/scripts/entity/derelictstationfounder.lua:
 msgid "You're about to turn your station into a ${stationName}.\n"
-msgstr "State per trasformare la vostra stazione in una ${nomeStazione}.\n"
+msgstr "State per trasformare la vostra stazione in una ${stationName}.\n"
 
 # ========== ./data/scripts/entity/dialogs/encounters/cultistleader.lua
 # ==========
@@ -42203,11 +42203,11 @@ msgstr "- Bruciato -"
 
 #: ./data/scripts/entity/energysuppressor.lua:
 msgid "Runtime: ${hours} hours ${minutes} minutes before burning out."
-msgstr "Autonomia: ${ore} ore ${minuti} minuti prima di spegnersi."
+msgstr "Autonomia: ${hours} ore ${minutes} minuti prima di spegnersi."
 
 #: ./data/scripts/entity/energysuppressor.lua:
 msgid "Runtime: ${minutes} minutes before burning out."
-msgstr "Tempo di funzionamento: ${minuti} minuti prima di spegnersi."
+msgstr "Tempo di funzionamento: ${minutes} minuti prima di spegnersi."
 
 #: ./data/scripts/entity/energysuppressor.lua:
 msgid "Your energy signature suppressor in sector \\s(%1%:%2%) has burnt out!"
@@ -43090,7 +43090,7 @@ msgstr ""
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "x${productions}"
-msgstr "x${produzioni}"
+msgstr "x${productions}"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid ""
@@ -43104,7 +43104,7 @@ msgstr "[Non sono richiesti ingredienti]"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "${name} (x${amount})"
-msgstr "${nome} (x${importo})"
+msgstr "${name} (x${amount})"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "${c}${price} - Base Price"
@@ -43112,15 +43112,15 @@ msgstr "${c}${price} - Prezzo base"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "x ${factor}% - Base Price Factor"
-msgstr "x ${fattore}% - Fattore prezzo base"
+msgstr "x ${factor}% - Fattore prezzo base"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "x ${factor}% - Regional Supply/Demand"
-msgstr "x ${fattore}% - Offerta/Domanda regionale"
+msgstr "x ${factor}% - Offerta/Domanda regionale"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "${c}${price} - Final Price"
-msgstr "${c}${prezzo} - Prezzo finale"
+msgstr "${c}${price} - Prezzo finale"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "Note: Prices are influenced by regional supply and demand."
@@ -43189,7 +43189,7 @@ msgstr "Profitto / produzione"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "${c}${money}"
-msgstr "${c}${denaro}"
+msgstr "${c}${money}"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid ""
@@ -43240,11 +43240,11 @@ msgstr ""
 #: ./data/scripts/entity/merchants/factory.lua:
 #: ./data/scripts/entity/merchants/fighterfactory.lua:
 msgid "${price} Cr"
-msgstr "${prezzo} Cr"
+msgstr "${price} Cr"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "Upgrade to allow up to ${amount} parallel productions."
-msgstr "Aggiornare per consentire fino a ${quantità} di produzioni parallele."
+msgstr "Aggiornare per consentire fino a ${amount} di produzioni parallele."
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid ""
@@ -43256,7 +43256,7 @@ msgstr ""
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "${volume}vol/${seconds}s"
-msgstr "${volume}vol/${secondi}s"
+msgstr "${volume}vol/${seconds}s"
 
 #: ./data/scripts/entity/merchants/factory.lua:
 msgid "Factory appears to be working as intended."
@@ -43487,13 +43487,13 @@ msgstr ""
 #: ./data/scripts/items/equipmentmerchantcaller.lua:
 #: ./data/scripts/items/reinforcementstransmitter.lua:
 msgid "${faction} Headquarters"
-msgstr "Sede centrale di ${fazione}"
+msgstr "Quartier Generale ${faction}"
 
 #: ./data/scripts/entity/merchants/headquarters.lua:
 #: ./data/scripts/entity/stationfounder.lua:
 #: ./data/scripts/player/ui/encyclopedia/chapters/exploring.lua:
 msgid "Headquarters"
-msgstr "Sede centrale"
+msgstr "Quartier Generale"
 
 # ========== ./data/scripts/entity/merchants/militaryoutpost.lua ==========
 #: ./data/scripts/entity/merchants/militaryoutpost.lua:
@@ -43505,7 +43505,7 @@ msgstr "Sede centrale"
 #: ./data/scripts/sector/background/rebuildstations.lua:
 #: ./data/scripts/sectorspecifics.lua:
 msgid "Military Outpost"
-msgstr "Avamposto militare"
+msgstr "Avamposto Militare"
 
 #: ./data/scripts/entity/merchants/militaryoutpost.lua:
 msgid "Detected increased Xsotan activity in nearby sectors."
@@ -43622,14 +43622,14 @@ msgid ""
 "\n"
 "Rich Ore: Yield x4"
 msgstr ""
-"${importo} ${bene}\n"
+"${amount} ${good}\n"
 "\n"
 "Minerale ricco: Rendimento x4"
 
 #: ./data/scripts/entity/merchants/refinery.lua:
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "${amount} ${good}"
-msgstr "${importo} ${bene}"
+msgstr "${amount} ${good}"
 
 #: ./data/scripts/entity/merchants/refinery.lua:
 msgid "There is nothing to take."
@@ -44517,7 +44517,7 @@ msgstr ""
 
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 msgid "Deliver ${amount} ${material}"
-msgstr "Consegnare ${importo} ${materiale}"
+msgstr "Consegnare ${amount} ${material}"
 
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 msgid "Bought resources for %1% Credits."
@@ -44525,7 +44525,7 @@ msgstr "Risorse acquistate per %1% Crediti."
 
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 msgid "You don't have enough ${material}."
-msgstr "Non hai abbastanza ${materiale}."
+msgstr "Non hai abbastanza ${material}."
 
 #: ./data/scripts/entity/merchants/resourcetrader.lua:
 msgid "Sold resources for %1% Credits."
@@ -44657,7 +44657,7 @@ msgstr "Valore della nave:"
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 #: ./data/scripts/player/background/simulation/tradecommand.lua:
 msgid "¢${money}"
-msgstr "¢${denaro}"
+msgstr "¢${money}"
 
 #: ./data/scripts/entity/merchants/scrapyard.lua:
 msgid "Please, do come again."
@@ -45157,11 +45157,11 @@ msgstr "Boost di viaggio Tier IV"
 
 #: ./data/scripts/entity/merchants/travelhub.lua:
 msgid "TIER ${tier} JUMP BOOST"
-msgstr "TIER ${tier} SALTO IN SALITA"
+msgstr "LIVELLO ${tier} POTENZA DI SALTO"
 
 #: ./data/scripts/entity/merchants/travelhub.lua:
 msgid "Jump Distance"
-msgstr "Distanza di salto"
+msgstr "Distanza di Salto"
 
 #: ./data/scripts/entity/merchants/travelhub.lua:
 msgid "Gain a one-time jump range boost for your next hyperspace jump."
@@ -45346,7 +45346,7 @@ msgstr ""
 
 #: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Tech ${level} - Turret Factory"
-msgstr "Tecnologia ${livello} - Fabbrica di torrette"
+msgstr "Tecnologia ${level} - Fabbrica di Torrette"
 
 #: ./data/scripts/entity/merchants/turretfactory.lua:
 msgid "Turret blueprint not found."
@@ -45491,11 +45491,11 @@ msgstr ""
 
 #: ./data/scripts/entity/minefounder.lua:
 msgid "${good} Mine"
-msgstr "${buono} Mio"
+msgstr "${good} Miniera"
 
 #: ./data/scripts/entity/minefounder.lua:
 msgid "You already own an object called ${name}."
-msgstr "Si possiede già un oggetto chiamato ${nome}."
+msgstr "Si possiede già un oggetto chiamato ${name}."
 
 #: ./data/scripts/entity/minefounder.lua:
 #: ./data/scripts/entity/stationfounder.lua:
@@ -45635,12 +45635,12 @@ msgstr "Attaccare i nemici"
 #: ./data/scripts/player/background/simulation/escortcommand.lua:
 msgctxt "ship AI status"
 msgid "Escorting ${name}"
-msgstr "Accompagnare ${nome}"
+msgstr "Accompagnare ${name}"
 
 #: ./data/scripts/entity/orderchain.lua:
 msgctxt "ship AI status"
 msgid "Attacking ${name}"
-msgstr "Attacco a ${nome}"
+msgstr "Attacco a ${name}"
 
 #: ./data/scripts/entity/orderchain.lua:
 msgctxt "ship AI status"
@@ -45660,12 +45660,12 @@ msgstr "Posizione di guardia"
 #: ./data/scripts/entity/orderchain.lua:
 msgctxt "ship AI status"
 msgid "Board ${name}"
-msgstr "Scheda ${nome}"
+msgstr "Scheda ${name}"
 
 #: ./data/scripts/entity/orderchain.lua:
 msgctxt "ship AI status"
 msgid "Repairing ${name}"
-msgstr "Riparazione di ${nome}"
+msgstr "Riparazione di ${name}"
 
 #: ./data/scripts/entity/orderchain.lua:
 msgctxt "ship AI status"
@@ -45833,15 +45833,15 @@ msgstr ""
 
 #: ./data/scripts/entity/shipfounder.lua:
 msgid "Paid ${amount} ${material} to found a ship."
-msgstr "Ho pagato ${importo} ${materiale} per fondare una nave."
+msgstr "Ho pagato ${amount} ${material} per fondare una nave."
 
 #: ./data/scripts/entity/shipfounder.lua:
 msgid "${amount} ${material}"
-msgstr "${importo} ${materiale}"
+msgstr "${amount} ${material}"
 
 #: ./data/scripts/entity/shipfounder.lua:
 msgid "${amount}"
-msgstr "${importo}"
+msgstr "${amount}"
 
 #: ./data/scripts/entity/shipfounder.lua:
 msgid "Founding Ship #${number}"
@@ -46079,7 +46079,7 @@ msgstr "Non è possibile trovare una stazione così vicina a un'altra stazione."
 
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "You're about to transform your ship into a ${factory}.\n"
-msgstr "State per trasformare la vostra nave in una ${fabbrica}.\n"
+msgstr "State per trasformare la vostra nave in una ${factory}.\n"
 
 #: ./data/scripts/entity/stationfounder.lua:
 msgid ""
@@ -46091,7 +46091,7 @@ msgstr ""
 
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "You're about to transform your ship into a ${stationName}.\n"
-msgstr "Stai per trasformare la tua nave in una ${nomeStazione}.\n"
+msgstr "Stai per trasformare la tua nave in una ${stationName}.\n"
 
 #: ./data/scripts/entity/stationfounder.lua:
 msgid "Paid %1% Credits to found a factory."
@@ -49257,7 +49257,7 @@ msgid ""
 "You have 2 choices. You can choose to pay ${amount} Credits for your "
 "pathetic life and ship, or you can choose to die."
 msgstr ""
-"Avete due possibilità. Puoi scegliere di pagare ${importo} per la tua "
+"Avete due possibilità. Puoi scegliere di pagare ${amount} per la tua "
 "patetica vita e la tua nave, oppure puoi scegliere di morire."
 
 #: ./data/scripts/entity/story/swoks.lua:
@@ -49459,7 +49459,7 @@ msgstr "Equipaggio di scambio"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Captain: ${name}"
-msgstr "Capitano: ${nome}"
+msgstr "Capitano: ${name}"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Transfer All >>"
@@ -49511,7 +49511,7 @@ msgstr "Trasferimento di tutti i siluri di questo albero"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Storage"
-msgstr "Immagazzinamento"
+msgstr "Magazzino"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Transfer >>"
@@ -49523,11 +49523,11 @@ msgstr "<< Trasferimento"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "${profession}"
-msgstr "${professione}"
+msgstr "${profession}"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "${profession} (Specialist level ${level})"
-msgstr "${professione} (Livello di specializzazione ${livello})"
+msgstr "${profession} (Livello di specializzazione ${level})"
 
 #: ./data/scripts/entity/transfercrewgoods.lua:
 msgid "Not enough space on the other craft."
@@ -49729,7 +49729,7 @@ msgid ""
 "remain on the bridge though. We should also look out for data left behind by"
 " destroyed Xsotan."
 msgstr ""
-"Capitano ${nome}: Fantastico! Inizierò subito a raccogliere i dati. Devo "
+"Capitano ${name}: Fantastico! Inizierò subito a raccogliere i dati. Devo "
 "però rimanere in plancia. Dovremmo anche cercare i dati lasciati dagli "
 "Xsotan distrutti."
 
@@ -49804,11 +49804,11 @@ msgstr ""
 # ========== ./data/scripts/entity/utility/transportmode.lua ==========
 #: ./data/scripts/entity/utility/transportmode.lua:
 msgid "Station will be ready in ${minutes} minutes."
-msgstr "La stazione sarà pronta tra ${minuti} minuti."
+msgstr "La stazione sarà pronta tra ${minutes} minuti."
 
 #: ./data/scripts/entity/utility/transportmode.lua:
 msgid "Station will be ready in ${seconds} seconds."
-msgstr "La stazione sarà pronta tra ${secondi} secondi."
+msgstr "La stazione sarà pronta tra ${seconds} secondi."
 
 #: ./data/scripts/entity/utility/transportmode.lua:
 msgid "Currently engaging 'Station' mode. Please wait."
@@ -50144,7 +50144,7 @@ msgstr "Dobbiamo occuparci di un traditore. Non abbiamo bisogno di testimoni."
 
 #: ./data/scripts/events/waveencounters/piratetraitorwaves.lua:
 msgid "${pirates} Traitor"
-msgstr "${pirati} Traditore"
+msgstr "${pirates} Traditore"
 
 #: ./data/scripts/events/waveencounters/piratetraitorwaves.lua:
 msgid "We told you we need no witness, now we have to eradicate you."
@@ -52056,11 +52056,11 @@ msgstr "Dati raccolti"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid "Every ${interval}s"
-msgstr "Ogni ${intervallo}s"
+msgstr "Ogni ${interval}s"
 
 #: ./data/scripts/lib/captainutility.lua:
-msgid "Data Dropped"
-msgstr "Dati eliminati"
+msgid "Data Daropped"
+msgstr "Dati Abandonati"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid "+200%"
@@ -52080,7 +52080,7 @@ msgstr "Livello"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid "EXP Progress"
-msgstr "EXP Progress"
+msgstr "Progresso EXP"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid "Captain's Certificate"
@@ -52100,7 +52100,7 @@ msgstr "Secondario:"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid "Tier:"
-msgstr "Animale:"
+msgstr "Grado:"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid "Level:"
@@ -52108,7 +52108,7 @@ msgstr "Livello:"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid "Expected Salary:"
-msgstr "Stipendio previsto:"
+msgstr "Stipendio Previsto:"
 
 #: ./data/scripts/lib/captainutility.lua:
 msgid ""
@@ -52436,16 +52436,16 @@ msgstr " di questa stazione"
 #: ./data/scripts/lib/dialogutility.lua:
 msgctxt "as in: you're talking to the system' of the Shipyard Luna41'"
 msgid " of the ${title} ${name}"
-msgstr " del ${titolo} ${nome}"
+msgstr " del ${title} ${name}"
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgctxt "as in: you're talking to the system' of Luna41'"
 msgid " of ${name}"
-msgstr " di ${nome}"
+msgstr " di ${name}"
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "Hello. "
-msgstr "Hello."
+msgstr "Ciao."
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "Welcome. "
@@ -52481,11 +52481,11 @@ msgstr "Ora state parlando con"
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "the automated interaction system${name_string}. "
-msgstr "il sistema di interazione automatica${nome_stringa}."
+msgstr "il sistema di interazione automatica${name_string}."
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "the automatic interaction response system${name_string}. "
-msgstr "il sistema di risposta automatica all'interazione${nome_stringa}."
+msgstr "il sistema di risposta automatica all'interazione${name_string}."
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "What can we do for you?"
@@ -52515,12 +52515,12 @@ msgstr "il capitano"
 #: ./data/scripts/lib/dialogutility.lua:
 msgctxt "as in: This is 'the Freighter Eclipse'."
 msgid "the ${title} ${name}"
-msgstr "il ${titolo} ${nome}"
+msgstr "il ${title} ${name}"
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgctxt "as in: This is 'the ship Eclipse'."
 msgid "the ship ${name}"
-msgstr "la nave ${nome}"
+msgstr "la nave ${name}"
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "This is ${speaker}. "
@@ -52528,7 +52528,7 @@ msgstr "Qui è ${speaker}."
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "Here is ${speaker}. "
-msgstr "Ecco ${voce}."
+msgstr "Ecco ${speaker}."
 
 #: ./data/scripts/lib/dialogutility.lua:
 msgid "Make it quick."
@@ -53288,7 +53288,7 @@ msgstr "Ha ricevuto una ricompensa di %1% Crediti."
 #: ./data/scripts/lib/sellablefighter.lua:
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "${weaponPrefix} Fighter"
-msgstr "${armaPrefisso} Combattente"
+msgstr "${weaponPrefix} Combattente"
 
 #: ./data/scripts/lib/sellablefighter.lua:
 #: ./data/scripts/lib/sellableinventoryitem.lua:
@@ -53587,44 +53587,44 @@ msgstr "Minatore"
 #: ./data/scripts/lib/shiputility.lua:
 msgctxt "ship title"
 msgid "Heavy Miner"
-msgstr "Minatore pesante"
+msgstr "Minatore Pesante"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgctxt "ship title"
 msgid "Mining Moloch"
-msgstr "Moloch minerario"
+msgstr "Moloch Minerario"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}Disruptor ${class}"
-msgstr "${durezza}Distruttore ${classe}"
+msgstr "${toughness}Disgregatore ${class}"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}CIWS ${class}"
-msgstr "${durezza}CIWS ${classe}"
+msgstr "${toughness}CIWS ${class}"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}Torpedo-${class}"
-msgstr "${durezza}Torpedo-${classe}"
+msgstr "${toughness}Torpedo-${class}"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}Artillery ${class}"
-msgstr "${durezza}Artiglieria ${classe}"
+msgstr "${toughness}Artiglieria ${class}"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}Persecutor ${class}"
-msgstr "${durezza}Persecutore ${classe}"
+msgstr "${toughness}Persecutore ${class}"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}Hyperspace Blocker ${class}"
-msgstr "${durezza}Bloccatore Iperspaziale ${classe}"
+msgstr "${toughness}Inibitore Iperspaziale ${class}"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}Flagship"
-msgstr "${durezza}Flagship"
+msgstr "${toughness}Flagship"
 
 #: ./data/scripts/lib/shiputility.lua:
 msgid "${toughness}Carrier ${class}"
-msgstr "${durezza}Trasportatore ${classe}"
+msgstr "${toughness}Trasportatore ${class}"
 
 # ========== ./data/scripts/lib/shop.lua ==========
 #: ./data/scripts/lib/shop.lua:
@@ -53665,7 +53665,7 @@ msgstr "??"
 
 #: ./data/scripts/lib/shop.lua:
 msgid "${percentage} OFF!"
-msgstr "${percentuale} OFF!"
+msgstr "${percentage} di sconto!"
 
 #: ./data/scripts/lib/shop.lua:
 msgid "BUY NOW!"
@@ -53681,7 +53681,7 @@ msgstr "MAT"
 
 #: ./data/scripts/lib/shop.lua:
 msgid "TECH"
-msgstr "TECNOLOGIA"
+msgstr "TEC"
 
 #: ./data/scripts/lib/shop.lua:
 msgid "#"
@@ -53697,7 +53697,7 @@ msgstr "Siamo completamente esauriti."
 
 #: ./data/scripts/lib/shop.lua:
 msgid "+${percentage}"
-msgstr "+${percentuale}"
+msgstr "+${percentage}"
 
 #: ./data/scripts/lib/shop.lua:
 msgid "LIMITED TIME OFFER!"
@@ -53717,7 +53717,7 @@ msgstr "Non avete venduto nulla a questa stazione."
 
 #: ./data/scripts/lib/shop.lua:
 msgid "${time}"
-msgstr "${tempo}"
+msgstr "${time}"
 
 #: ./data/scripts/lib/shop.lua:
 msgid "Item to buy not found."
@@ -53776,7 +53776,7 @@ msgstr "Hardcore"
 # ========== ./data/scripts/lib/story/adventurerguide.lua ==========
 #: ./data/scripts/lib/story/adventurerguide.lua:
 msgid "${name} The Adventurer"
-msgstr "${nome} L'Avventuriero"
+msgstr "${name} L'Avventuriero"
 
 # ========== ./data/scripts/lib/story/ai.lua ==========
 # ========== ./data/scripts/lib/story/operationexodus.lua ==========
@@ -53786,7 +53786,7 @@ msgstr "Gli Haatii"
 
 #: ./data/scripts/lib/story/operationexodus.lua:
 msgid "To all participants of Operation Exodus.${remaining}"
-msgstr "A tutti i partecipanti all'Operazione Exodus.${rimane}"
+msgstr "A tutti i partecipanti all'Operazione Exodus.${remaining}"
 
 #: ./data/scripts/lib/story/operationexodus.lua:
 msgid ""
@@ -53890,43 +53890,43 @@ msgstr ""
 # ========== ./data/scripts/lib/story/xsotan.lua ==========
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "The Xsotan"
-msgstr "Il Xsotan"
+msgstr "L'Xsotan"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Xsotan ${ship}"
-msgstr "${durezza}Xsotan ${nave}"
+msgstr "${toughness}Xsotan ${ship}"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "Xsotan Cultivator"
-msgstr "Xsotan Cultivator"
+msgstr "Xsotan Coltivatore"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Quantum Xsotan ${ship}"
-msgstr "${durezza}Quantum Xsotan ${nave}"
+msgstr "${toughness}Quantum Xsotan ${ship}"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Xsotan Dasher ${ship}"
-msgstr "${durezza}Xsotan Dasher ${nave}"
+msgstr "${toughness}Lanciatore Xsotan ${ship}"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Xsotan Summoner"
-msgstr "${durezza}Xsotan Evocatore"
+msgstr "${toughness}Evocatore Xsotan"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Shielded Xsotan ${ship}"
-msgstr "${durezza}Schermatura di Xsotan ${nave}"
+msgstr "${toughness}Schermatura Xsotan ${ship}"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "Xsotan Master Summoner"
-msgstr "Maestro evocatore Xsotan"
+msgstr "Maestro Evocatore Xsotan"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Xsotan Bombardier ${ship}"
-msgstr "${durezza}Xsotan Bombardier ${nave}"
+msgstr "${toughness}Bombardiero Xsotan ${ship}"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "${toughness}Xsotan Jostler ${ship}"
-msgstr "${durezza}Xsotan Jostler ${nave}"
+msgstr "${toughness}Jostler Xsotan ${ship}"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "Xsotan Aggregator"
@@ -53938,15 +53938,15 @@ msgstr "Amplificatore Xsotan"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "Xsotan Masticator"
-msgstr "Xsotan Masticator"
+msgstr "Masticatore Xsotan"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "Xsotan Wormhole Guardian"
-msgstr "Xsotan Wormhole Guardian"
+msgstr "Guardiano del Wormhole Xsotan"
 
 #: ./data/scripts/lib/story/xsotan.lua:
 msgid "Big Xsotan Breeder"
-msgstr "Grande allevatore di Xsotan"
+msgstr "Grande Allevatore di Xsotan"
 
 # ========== ./data/scripts/lib/stringutility.lua ==========
 #: ./data/scripts/lib/stringutility.lua:
@@ -53978,7 +53978,7 @@ msgstr "Danni"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Fire Rate"
-msgstr "Velocità di fuoco"
+msgstr "Velocità di Fuoco"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Push"
@@ -54003,7 +54003,7 @@ msgstr "Autotrazione"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Force Power"
-msgstr "Potenza della forza"
+msgstr "Potenza della Forza"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Eff. Stone"
@@ -54019,11 +54019,11 @@ msgstr "Efficienza"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Hull Repair /s"
-msgstr "Riparazione dello scafo /s"
+msgstr "Riparazione dello Scafo /s"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Shield Repair /s"
-msgstr "Riparazione dello scudo /s"
+msgstr "Riparazione dello Scudo /s"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Accuracy"
@@ -54031,7 +54031,7 @@ msgstr "Precisione"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Hull Penetration"
-msgstr "Penetrazione dello scafo"
+msgstr "Penetrazione dello Scafo"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid " blocks"
@@ -54039,15 +54039,15 @@ msgstr " blocchi"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Continuous Shots"
-msgstr "Scatti continui"
+msgstr "Colpi Continui"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Time Until Depleted"
-msgstr "Tempo fino all'esaurimento"
+msgstr "Tempo Fino all'Esaurimento"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Time Until Overheated"
-msgstr "Tempo di surriscaldamento"
+msgstr "Tempo di Surriscaldamento"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Recharge Time"
@@ -54055,7 +54055,7 @@ msgstr "Tempo di ricarica"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Cooling Time"
-msgstr "Tempo di raffreddamento"
+msgstr "Tempo di Raffreddamento"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Energy /s"
@@ -54063,20 +54063,20 @@ msgstr "Energia /s"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Energy /shot"
-msgstr "Energia /scatto"
+msgstr "Energia /colpo"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Energy Increase /s"
-msgstr "Aumento di energia /s"
+msgstr "Aumento di Energia /s"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Damage Type"
-msgstr "Tipo di danno"
+msgstr "Tipo di Danno"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Increased damage against Hull"
 msgid "More damage vs"
-msgstr "Più danni contro"
+msgstr "Più danni su"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Increased damage against Hull"
@@ -54086,7 +54086,7 @@ msgstr "Scafo"
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Increased damage against Shields"
 msgid "More damage vs"
-msgstr "Più danni contro"
+msgstr "Più danni su"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Increased damage against Shields"
@@ -54096,17 +54096,17 @@ msgstr "Scudi"
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Increased damage against Fighters, Torpedoes"
 msgid "More damage vs"
-msgstr "Più danni contro"
+msgstr "Più danni su"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Increased damage against Fighters, Torpedoes"
 msgid "Fighters, Torpedoes"
-msgstr "Caccia, siluri"
+msgstr "Caccia, Siluri"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "No damage to stone"
 msgid "No damage vs"
-msgstr "Nessun danno contro"
+msgstr "Nessun danno su"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "No damage to stone"
@@ -54116,16 +54116,16 @@ msgstr "Pietra"
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Double damage to Technical Blocks"
 msgid "x2 damage vs"
-msgstr "x2 danni contro"
+msgstr "x2 danni su"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgctxt "Double damage to Technical Blocks"
 msgid "Technical Blocks"
-msgstr "Blocchi tecnici"
+msgstr "Blocchi Tecnici"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Battery Charge"
-msgstr "Carica della batteria"
+msgstr "Carica della Batteria"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Overheats"
@@ -54133,43 +54133,43 @@ msgstr "Surriscaldamento"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Burst Fire"
-msgstr "Fuoco di scoppio"
+msgstr "Fuoco di Scarico"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Seeker Shots"
-msgstr "Colpi del cercatore"
+msgstr "Colpi del Cercatore"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "No Damage to Shields"
-msgstr "Nessun danno agli scudi"
+msgstr "Nessun Danno agli Dcudi"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "${bonus} Damage to Shields"
-msgstr "${bonus} Danni agli scudi"
+msgstr "${bonus} Danni agli Scudi"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "${bonus} Damage to Hull"
-msgstr "${bonus} Danni allo scafo"
+msgstr "${bonus} Danni allo Scafo"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Breaks Alloys down into Scrap Metal"
-msgstr "Riduce le leghe in rottami metallici"
+msgstr "Riduce le Leghe in Rottami Metallici"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Breaks Stone down into Ores"
-msgstr "Scompone la pietra in minerali"
+msgstr "Scompone la Pietra in Minerali"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Refines Stone into Resources"
-msgstr "Raffina la pietra in risorse"
+msgstr "Raffina la Pietra in Risorse"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Refines Alloys into Resources"
-msgstr "Raffina le leghe in risorse"
+msgstr "Raffina le Leghe in Risorse"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "${material} ${weaponPrefix} Turret"
-msgstr "${materiale} ${artificioPrefisso} Torretta"
+msgstr "${material} ${weaponPrefix} Torretta"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Double ${material} ${weaponPrefix} Turret"
@@ -54189,67 +54189,67 @@ msgstr "Multi ${material} ${weaponPrefix} Torretta"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "${material} ${weaponPrefix} Blueprint"
-msgstr "${materiale} ${fisso dell'arma} Impronta blu"
+msgstr "${material} ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Double ${material} ${weaponPrefix} Blueprint"
-msgstr "Doppio ${material} ${weaponPrefix} Impronta blu"
+msgstr "Doppio ${material} ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Triple ${material} ${weaponPrefix} Blueprint"
-msgstr "Triplo ${materiale} ${profilo dell'arma} Impronta blu"
+msgstr "Triplo ${material} ${profilo dell'arma} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Quad ${material} ${weaponPrefix} Blueprint"
-msgstr "Quad ${material} ${weaponPrefix} Impronta blu"
+msgstr "Quad ${material} ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Multi ${material} ${weaponPrefix} Blueprint"
-msgstr "Multi ${material} ${weaponPrefix} Impronta blu"
+msgstr "Multi ${material} ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Coaxial ${weaponPrefix}"
-msgstr "Coassiale ${prefisso dell'arma}"
+msgstr "Coassiale ${weaponPrefix}"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Double Coaxial ${weaponPrefix}"
-msgstr "Doppio coassiale ${armaPrefisso}"
+msgstr "Doppio coassiale ${weaponPrefix}"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Triple Coaxial ${weaponPrefix}"
-msgstr "Triplo coassiale ${armaPrefisso}"
+msgstr "Triplo coassiale ${weaponPrefix}"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Quad Coaxial ${weaponPrefix}"
-msgstr "Coassiale quadruplo ${prefisso dell'arma}"
+msgstr "Coassiale quadruplo ${weaponPrefix}"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Coaxial Multi ${weaponPrefix}"
-msgstr "Multi coassiale ${armaPrefisso}"
+msgstr "Multi coassiale ${weaponPrefix}"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Coaxial ${weaponPrefix} Blueprint"
-msgstr "Coassiale ${armaPrefisso} Impronta blu"
+msgstr "Coassiale ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Double Coaxial ${weaponPrefix} Blueprint"
-msgstr "Doppio Coassiale ${armaPrefisso} Impronta blu"
+msgstr "Doppio Coassiale ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Triple Coaxial ${weaponPrefix} Blueprint"
-msgstr "Triplo coassiale ${armaPrefisso} Impronta blu"
+msgstr "Triplo coassiale ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Quad Coaxial ${weaponPrefix} Blueprint"
-msgstr "Quad coassiale ${armaPrefisso} Impronta blu"
+msgstr "Quad coassiale ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Coaxial Multi ${weaponPrefix} Blueprint"
-msgstr "Multi coassiale ${armaPrefisso} Impronta blu"
+msgstr "Multi coassiale ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "${weaponPrefix} Turret"
-msgstr "${armaPrefisso} Torretta"
+msgstr "${weaponPrefix} Torretta"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Double ${weaponPrefix} Turret"
@@ -54265,27 +54265,27 @@ msgstr "Quad ${weaponPrefix} Torretta"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Multi ${weaponPrefix} Turret"
-msgstr "Multi ${armaPrefisso} Torretta"
+msgstr "Multi ${weaponPrefix} Torretta"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "${weaponPrefix} Blueprint"
-msgstr "${armaPrefisso} Impronta blu"
+msgstr "${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Double ${weaponPrefix} Blueprint"
-msgstr "Doppio ${weaponPrefix} Impronta blu"
+msgstr "Doppio ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Triple ${weaponPrefix} Blueprint"
-msgstr "Triplo ${weaponPrefix} Impronta blu"
+msgstr "Triplo ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Quad ${weaponPrefix} Blueprint"
-msgstr "Quad ${weaponPrefix} Impronta blu"
+msgstr "Quad ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Multi ${weaponPrefix} Blueprint"
-msgstr "Multi ${weaponPrefix} Impronta blu"
+msgstr "Multi ${weaponPrefix} Progetto"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Size"
@@ -54346,7 +54346,7 @@ msgstr "Danni allo scafo"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "up to ${damage}"
-msgstr "fino a ${danno}"
+msgstr "fino a ${damage}"
 
 #: ./data/scripts/lib/tooltipmaker.lua:
 msgid "Shield Damage"
@@ -54383,7 +54383,7 @@ msgstr "Richiede energia in accumulo"
 # ========== ./data/scripts/lib/torpedogenerator.lua ==========
 #: ./data/scripts/lib/torpedogenerator.lua:
 msgid "${speed}-Class ${warhead} Torpedo"
-msgstr "Classe ${velocità} ${testa} Siluro"
+msgstr "Classe ${speed} ${warhead} Siluro"
 
 # ========== ./data/scripts/lib/torpedoutility.lua ==========
 #: ./data/scripts/lib/torpedoutility.lua:
@@ -54510,7 +54510,7 @@ msgstr "È possibile acquistare una quantità maggiore di questo prodotto."
 
 #: ./data/scripts/lib/tradingmanager.lua:
 msgid "You can only store ${amount} of this good!"
-msgstr "È possibile immagazzinare solo ${quantità} di questo bene!"
+msgstr "È possibile immagazzinare solo ${amount} di questo bene!"
 
 #: ./data/scripts/lib/tradingmanager.lua:
 msgid "You can't afford any of this good!"
@@ -54518,7 +54518,7 @@ msgstr "Non potete permettervi nulla di tutto questo!"
 
 #: ./data/scripts/lib/tradingmanager.lua:
 msgid "You can only afford ${amount} of this good!"
-msgstr "Puoi permetterti solo ${quantità} di questo bene!"
+msgstr "Puoi permetterti solo ${amount} di questo bene!"
 
 #: ./data/scripts/lib/tradingmanager.lua:
 msgid "This object doesn't buy goods from others."
@@ -55525,33 +55525,33 @@ msgstr "Cannone anti-combattimento"
 # ========== ./data/scripts/lib/utility.lua ==========
 #: ./data/scripts/lib/utility.lua:
 msgid "${hours} hours, ${minutes} minutes"
-msgstr "${ore} ore, ${minuti} minuti"
+msgstr "${hours} ore, ${minutes} minuti"
 
 #: ./data/scripts/lib/utility.lua:
 msgid "${minutes} minutes, ${seconds} seconds"
-msgstr "${minuti} minuti, ${secondi} secondi"
+msgstr "${minutes} minuti, ${seconds} secondi"
 
 #: ./data/scripts/lib/utility.lua:
 msgid "${seconds} seconds"
-msgstr "${secondi} secondi"
+msgstr "${seconds} secondi"
 
 #: ./data/scripts/lib/utility.lua:
 msgid "${hours} h ${minutes} min"
-msgstr "${ore} h ${minuti} min"
+msgstr "${hours} h ${minutes} min"
 
 #: ./data/scripts/lib/utility.lua:
 msgid "${minutes} min, ${seconds} s"
-msgstr "${minuti} min, ${secondi} s"
+msgstr "${minutes} min, ${seconds} s"
 
 #: ./data/scripts/lib/utility.lua:
 #: ./data/scripts/player/background/simulation/refinecommand.lua:
 #: ./data/scripts/player/background/simulation/supplycommand.lua:
 msgid "${minutes} min"
-msgstr "${minuti} min"
+msgstr "${minutes} min"
 
 #: ./data/scripts/lib/utility.lua:
 msgid "${seconds} s"
-msgstr "${secondi} s"
+msgstr "${seconds} s"
 
 # ========== ./data/scripts/lib/waveutility.lua ==========
 #: ./data/scripts/lib/waveutility.lua:
@@ -56246,11 +56246,11 @@ msgstr ""
 # ==========
 #: ./data/scripts/player/background/simulation/escortcommand.lua:
 msgid "Escorting ${ship}"
-msgstr "Scorta di ${nave}"
+msgstr "Scorta di ${ship}"
 
 #: ./data/scripts/player/background/simulation/escortcommand.lua:
 msgid "The ship is escorting ship ${name}."
-msgstr "La nave sta scortando la nave ${nome}."
+msgstr "La nave sta scortando la nave ${name}."
 
 # ========== ./data/scripts/player/background/simulation/expeditioncommand.lua
 # ==========
@@ -56282,7 +56282,7 @@ msgid ""
 msgstr ""
 "Comandante, ho segnato questo settore sulla mappa per lei.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/expeditioncommand.lua:
 #: ./data/scripts/player/background/simulation/procurecommand.lua:
@@ -56296,7 +56296,7 @@ msgid ""
 msgstr ""
 "Comandante, abbiamo scoperto questo settore che non era ancora presente sulla mappa.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/expeditioncommand.lua:
 #: ./data/scripts/player/background/simulation/procurecommand.lua:
@@ -56310,7 +56310,7 @@ msgid ""
 msgstr ""
 "Ho scoperto un settore qui.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/expeditioncommand.lua:
 #: ./data/scripts/player/background/simulation/procurecommand.lua:
@@ -56324,7 +56324,7 @@ msgid ""
 msgstr ""
 "Come piccola cortesia, ho esplorato questo settore per voi.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/expeditioncommand.lua:
 msgid ""
@@ -57174,11 +57174,11 @@ msgstr "La manutenzione riparerà sempre la nave."
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "¢${repairCost}"
-msgstr "¢${costo di riparazione}"
+msgstr "¢${repairCost}"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "¢0 (Reconstruction Site nearby)"
-msgstr "¢0 (Sito di ricostruzione vicino)"
+msgstr "¢0 (Sito di Ricostruzione Vicino)"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "No major repairs necessary."
@@ -57198,7 +57198,7 @@ msgstr "${num} persone saranno assunte"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "Duration: +${duration} min"
-msgstr "Durata: +${durata} min"
+msgstr "Durata: +${duration} min"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "No more crew necessary."
@@ -57206,11 +57206,11 @@ msgstr "Non è necessario un altro equipaggio."
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "Fill ${percentage}% of free torpedo storage"
-msgstr "Riempire ${percentuale}% del magazzino siluri libero"
+msgstr "Riempire ${percentage}% del magazzino siluri libero"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "+${amount} Torpedoes in Storage"
-msgstr "+${importo} Siluri in deposito"
+msgstr "+${amount} Siluri in deposito"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "+${amountInLaunchers} Torpedoes in Launcher Shafts"
@@ -57218,19 +57218,19 @@ msgstr "+${amountInLaunchers} Siluri negli alberi dei lanciatori"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "${percentage}%"
-msgstr "${percentuale}%"
+msgstr "${percentage}%"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "+${amount} Fighters"
-msgstr "+${importo} Combattenti"
+msgstr "+${amount} Combattenti"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "+${amount}"
-msgstr "+${importo}"
+msgstr "+${amount}"
 
 #: ./data/scripts/player/background/simulation/maintenancecommand.lua:
 msgid "Hangar capacity full ${utilization}/${capacity}"
-msgstr "Capacità dell'hangar piena ${utilizzo}/${capacità}"
+msgstr "Capacità dell'hangar piena ${utilization}/${capacity}"
 
 # ========== ./data/scripts/player/background/simulation/minecommand.lua
 # ==========
@@ -57277,7 +57277,7 @@ msgid ""
 msgstr ""
 "Comandante, c'è un campo di asteroidi in questo settore.\n"
 "\n"
-"Distinti saluti, capitano ${nome}"
+"Distinti saluti, capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/minecommand.lua:
 msgid ""
@@ -57287,7 +57287,7 @@ msgid ""
 msgstr ""
 "Comandante, abbiamo scoperto un campo di asteroidi qui.\n"
 "\n"
-"Distinti saluti, Capitano ${nome}"
+"Distinti saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/minecommand.lua:
 msgid ""
@@ -57297,7 +57297,7 @@ msgid ""
 msgstr ""
 "Campo di asteroidi qui.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/minecommand.lua:
 msgid ""
@@ -57307,7 +57307,7 @@ msgid ""
 msgstr ""
 "Questo settore contiene un campo di asteroidi.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/minecommand.lua:
 msgid ""
@@ -57603,7 +57603,7 @@ msgstr "- Area esterna della fazione: +${value}%"
 #: ./data/scripts/player/background/simulation/minecommand.lua:
 #: ./data/scripts/player/background/simulation/salvagecommand.lua:
 msgid "- Central Faction Area: +${value}%"
-msgstr "- Area centrale della fazione: +${valore}%"
+msgstr "- Area centrale della fazione: +${value}%"
 
 #: ./data/scripts/player/background/simulation/minecommand.lua:
 msgid "- Discovered Asteroid Fields: +${value}%"
@@ -58098,7 +58098,7 @@ msgid ""
 msgstr ""
 "Comandante, ci sono molti relitti in questo settore.\n"
 "\n"
-"Saluti, capitano ${nome}"
+"Saluti, capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/salvagecommand.lua:
 msgid ""
@@ -58108,7 +58108,7 @@ msgid ""
 msgstr ""
 "Comandante, abbiamo scoperto quello che sembra un vecchio campo di battaglia.\n"
 "\n"
-"Saluti, capitano ${nome}"
+"Saluti, capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/salvagecommand.lua:
 msgid ""
@@ -58118,7 +58118,7 @@ msgid ""
 msgstr ""
 "Campo di rottami qui.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/salvagecommand.lua:
 msgid ""
@@ -58128,7 +58128,7 @@ msgid ""
 msgstr ""
 "Ho trovato alcuni salvataggi redditizi in questo settore.\n"
 "\n"
-"Saluti, Capitano ${nome}"
+"Saluti, Capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/salvagecommand.lua:
 msgid ""
@@ -58138,7 +58138,7 @@ msgid ""
 msgstr ""
 "Sembra che qui sia avvenuta una lotta. Potrebbe valere la pena di cercare un recupero.\n"
 "\n"
-"Saluti, capitano ${nome}"
+"Saluti, capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/salvagecommand.lua:
 msgid ""
@@ -58494,11 +58494,11 @@ msgstr "Non posso venderlo!"
 
 #: ./data/scripts/player/background/simulation/sellcommand.lua:
 msgid "I don't know how to sell '${name}' here."
-msgstr "Non so come vendere '${nome}' qui."
+msgstr "Non so come vendere '${name}' qui."
 
 #: ./data/scripts/player/background/simulation/sellcommand.lua:
 msgid "No amount for ${good} selected!"
-msgstr "Nessun importo per ${buono} selezionato!"
+msgstr "Nessun importo per ${good}} selezionato!"
 
 #: ./data/scripts/player/background/simulation/sellcommand.lua:
 msgid "No good to sell selected!"
@@ -58506,7 +58506,7 @@ msgstr "Non serve a nulla vendere selezionati!"
 
 #: ./data/scripts/player/background/simulation/sellcommand.lua:
 msgid "Not enough of ${good} aboard!"
-msgstr "Non c'è abbastanza $buono} a bordo!"
+msgstr "Non c'è abbastanza ${good} a bordo!"
 
 #: ./data/scripts/player/background/simulation/sellcommand.lua:
 msgid "Cargo to sell isn't on the ship!"
@@ -58514,7 +58514,7 @@ msgstr "Il carico da vendere non è sulla nave!"
 
 #: ./data/scripts/player/background/simulation/sellcommand.lua:
 msgid "There is no demand for '${name}' here."
-msgstr "Non c'è alcuna richiesta di \"${nome}\" qui."
+msgstr "Non c'è alcuna richiesta di \"${name}\" qui."
 
 #: ./data/scripts/player/background/simulation/sellcommand.lua:
 msgid "Left-Click to select area to sell in"
@@ -58926,7 +58926,7 @@ msgstr "%d settori"
 
 #: ./data/scripts/player/background/simulation/simulationutility.lua:
 msgid "[${lower.x}:${lower.y} to ${upper.x}:${upper.y}]"
-msgstr "[${basso.x}:${basso.y} a ${superiore.x}:${superiore.y}]"
+msgstr "[${lower.x}:${lower.y} a ${upper.x}:${upper.y}]"
 
 #: ./data/scripts/player/background/simulation/simulationutility.lua:
 msgid "Captain's Assessment"
@@ -58952,7 +58952,7 @@ msgstr "Valutazione del capitano ${name}"
 
 #: ./data/scripts/player/background/simulation/simulationutility.lua:
 msgid "${timeRemaining} remaining (${completed} % done)"
-msgstr "${tempoRimanente} rimanente (${completato} % fatto)"
+msgstr "${timeRemaining} rimanente (${completed} % fatto)"
 
 #: ./data/scripts/player/background/simulation/simulationutility.lua:
 msgid "Escorts / Support"
@@ -59308,18 +59308,18 @@ msgstr "Indefinito"
 
 #: ./data/scripts/player/background/simulation/supplycommand.lua:
 msgid "${title} ${name}"
-msgstr "${titolo} ${nome}"
+msgstr "${title} ${name}"
 
 #: ./data/scripts/player/background/simulation/supplycommand.lua:
 msgctxt ""
 "resolves to '41 Energy Cells' or '1 Mining Robot', plural form is already "
 "taken care of here"
 msgid "${amount} ${name}"
-msgstr "${importo} ${nome}"
+msgstr "${amount} ${name}"
 
 #: ./data/scripts/player/background/simulation/supplycommand.lua:
 msgid "${title} - ${name}"
-msgstr "${titolo} - ${nome}"
+msgstr "${title} - ${name}"
 
 # ========== ./data/scripts/player/background/simulation/tradecommand.lua
 # ==========
@@ -60210,7 +60210,7 @@ msgstr "Incatenamento"
 
 #: ./data/scripts/player/map/mapcommands.lua:
 msgid "[SHIFT] Enchain"
-msgstr "[Incatenamento"
+msgstr "[SHIFT] Concatena"
 
 #: ./data/scripts/player/map/mapcommands.lua:
 msgid "Focus"
@@ -60219,7 +60219,7 @@ msgstr "Focus"
 # ========== ./data/scripts/player/map/maproutes.lua ==========
 #: ./data/scripts/player/map/maproutes.lua:
 msgid "[Hold SHIFT]"
-msgstr "[Tenere premuto SHIFT]"
+msgstr "[Tenere Premuto SHIFT]"
 
 #: ./data/scripts/player/map/maproutes.lua:
 msgid "Enchain commands"
@@ -60227,11 +60227,11 @@ msgstr "Comandi Enchain"
 
 #: ./data/scripts/player/map/maproutes.lua:
 msgid "[${i}] Jump"
-msgstr "[Salto"
+msgstr "[${i}] Salto"
 
 #: ./data/scripts/player/map/maproutes.lua:
 msgid "[${i}] Gate"
-msgstr "[${i}]Gate"
+msgstr "[${i}] Porta"
 
 #: ./data/scripts/player/map/maproutes.lua:
 msgid "[${i}] Wormhole"
@@ -60264,7 +60264,7 @@ msgstr "[${i}] Raffinare i minerali"
 # ========== ./data/scripts/player/missions/bountyhuntmission.lua ==========
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "WANTED: ${target} ${name}"
-msgstr "CERCASI: ${target} ${nome}"
+msgstr "RICERCATO: ${target} ${name}"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "Fulfill the bounty hunting contract and make these sectors safe again!"
@@ -60339,7 +60339,7 @@ msgstr "Ricercato morto, non vivo"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "Defeat ${target} ${name}"
-msgstr "Sconfiggi ${target} ${nome}"
+msgstr "Sconfiggi ${target} ${name}"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid ""
@@ -60409,7 +60409,7 @@ msgstr "Ricerca nel relitto"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "Log Files of Freighter ${name}"
-msgstr "File di log della nave da carico ${nome}"
+msgstr "File di log della nave da carico ${name}"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid ""
@@ -60499,7 +60499,7 @@ msgid ""
 "\n"
 "When we refused, they damaged our ship instead and told us that they were going to destroy us next time!"
 msgstr ""
-"Siamo stati attaccati da un pirata chiamato ${target} ${nome}.\n"
+"Siamo stati attaccati da un pirata chiamato ${target} ${name}.\n"
 "\n"
 "Ha detto che stavamo volando nel suo territorio e che dovevamo pagare un pedaggio.\n"
 "\n"
@@ -60607,7 +60607,7 @@ msgid ""
 "\n"
 "But they left when security was alerted."
 msgstr ""
-"Sta cercando ${target} ${nome}?\n"
+"Sta cercando ${target} ${name}?\n"
 "\n"
 "Abbiamo visto lui e i suoi uomini in un posto di scambio non molto tempo fa.\n"
 "\n"
@@ -60723,7 +60723,7 @@ msgstr "Ottenere informazioni dai pirati"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "We're looking for someone: ${target} ${name}."
-msgstr "Stiamo cercando una persona: ${target} ${nome}."
+msgstr "Stiamo cercando una persona: ${target} ${name}."
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid ""
@@ -60733,7 +60733,7 @@ msgid ""
 msgstr ""
 "Aspetta un attimo...\n"
 "\n"
-"Il nome della vostra nave... ${nome}... vi suona familiare?"
+"Il nome della vostra nave... ${name}... vi suona familiare?"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "It does?"
@@ -60921,7 +60921,7 @@ msgstr "Leader rinnegato"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "${target} ${name}"
-msgstr "${target} ${nome}"
+msgstr "${target} ${name}"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "Former Cavaliers"
@@ -60949,7 +60949,7 @@ msgstr "Ex compagno della Comune"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "Patrol Unit ${name}"
-msgstr "Unità di pattuglia ${nome}"
+msgstr "Unità di pattuglia ${name}"
 
 #: ./data/scripts/player/missions/bountyhuntmission.lua:
 msgid "Empty Package"
@@ -61259,7 +61259,7 @@ msgstr ""
 
 #: ./data/scripts/player/missions/delivery.lua:
 msgid "Please deliver the cargo to the ${stationTitle} ${name}."
-msgstr "Si prega di consegnare il carico alla ${stazioneTitolo} ${nome}."
+msgstr "Si prega di consegnare il carico alla ${stationTitle} ${name}."
 
 #: ./data/scripts/player/missions/delivery.lua:
 msgid ""
@@ -61271,14 +61271,14 @@ msgstr ""
 
 #: ./data/scripts/player/missions/delivery.lua:
 msgid "The recipient is on the ${stationTitle} ${name}."
-msgstr "Il destinatario si trova sulla ${stazioneTitolo} ${nome}."
+msgstr "Il destinatario si trova sulla ${stationTitle} ${name}."
 
 #: ./data/scripts/player/missions/delivery.lua:
 msgid ""
 "A client asked you to take care of an urgent delivery of ${amount} ${goods}.\n"
 "\n"
 msgstr ""
-"Un cliente vi ha chiesto di occuparvi di una consegna urgente di ${importo} ${merce}.\n"
+"Un cliente vi ha chiesto di occuparvi di una consegna urgente di ${amount} ${merce}.\n"
 "\n"
 
 #: ./data/scripts/player/missions/delivery.lua:
@@ -61290,7 +61290,7 @@ msgid ""
 "${client}\n"
 "\n"
 msgstr ""
-"${cliente}\n"
+"${client}\n"
 "\n"
 
 #: ./data/scripts/player/missions/delivery.lua:
@@ -61412,7 +61412,7 @@ msgstr "Andare nel settore (${x}:${y}) e liberare gli schiavi"
 
 #: ./data/scripts/player/missions/freeslaves.lua:
 msgid "Bring the slaves back to the ${title} ${name} in (${x}:${y})"
-msgstr "Riporta gli schiavi al ${titolo} ${nome} in (${x}:${y})"
+msgstr "Riporta gli schiavi al ${title} ${name} in (${x}:${y})"
 
 #: ./data/scripts/player/missions/freeslaves.lua:
 msgid "You need more cargo space to pick up these slaves!"
@@ -61487,7 +61487,7 @@ msgstr "Ehi tu! Cosa vuoi? Parla in fretta o vattene!"
 
 #: ./data/scripts/player/missions/freeslaves.lua:
 msgid "I heard you have slaves of ${faction}."
-msgstr "Ho sentito che avete schiavi di ${fazione}."
+msgstr "Ho sentito che avete schiavi di ${faction}."
 
 #: ./data/scripts/player/missions/freeslaves.lua:
 msgid "I will free the poor people you enslaved."
@@ -61542,7 +61542,7 @@ msgstr "Non negoziamo. Ci dia i soldi o se ne vada."
 
 #: ./data/scripts/player/missions/freeslaves.lua:
 msgid "Ok, so ${price} then."
-msgstr "Ok, allora ${prezzo}."
+msgstr "Ok, allora ${price}."
 
 #: ./data/scripts/player/missions/freeslaves.lua:
 msgid "Why should I pay so much? I'll just take them."
@@ -61662,8 +61662,8 @@ msgid ""
 "Report to ${stationTitle} ${stationName} once you have ${cargoSpace} free "
 "cargo space."
 msgstr ""
-"Fai rapporto a ${stationTitle} ${nomeStazione} una volta che hai "
-"${caricoSpazio} libero per il carico."
+"Fai rapporto a ${stationTitle} ${stationName} una volta che hai "
+"${cargoSpace} libero per il carico."
 
 #: ./data/scripts/player/missions/investigatemissingfreighters.lua:
 msgid "The freighters usually go to (${xCoord}:${yCoord}) first."
@@ -61942,7 +61942,7 @@ msgstr "Normale"
 # ========== ./data/scripts/player/missions/organizegoods.lua ==========
 #: ./data/scripts/player/missions/organizegoods.lua:
 msgid "Procure ${amount} ${plural}"
-msgstr "Procurare ${importo} ${plurale}"
+msgstr "Procurare ${amount} ${plural}"
 
 #: ./data/scripts/player/missions/organizegoods.lua:
 msgid "Procure ${plural}"
@@ -61950,7 +61950,7 @@ msgstr "Procure ${plural}"
 
 #: ./data/scripts/player/missions/organizegoods.lua:
 msgid "Deliver ${amount} ${plural}"
-msgstr "Consegnare ${importo} ${plurale}"
+msgstr "Consegna ${amount} ${plural}"
 
 #: ./data/scripts/player/missions/organizegoods.lua:
 msgid "Received %1% Credits for procuring goods in time."
@@ -61972,7 +61972,7 @@ msgid ""
 "\n"
 "Time Left: ${timeLeftStr}"
 msgstr ""
-"La ${stazioneTitolo} ${nomeStazione} del settore (${nomeSettore}) vi ha chiesto una consegna urgente di ${importo} ${plurale}.\n"
+"La ${stationTitle} ${stationName} del settore (${sectorName}) vi ha chiesto una consegna urgente di ${amount} ${plural}.\n"
 "\n"
 "Al momento della consegna riceverete il pagamento della merce e un bonus.\n"
 "\n"
@@ -62002,7 +62002,7 @@ msgid ""
 "an emergency."
 msgstr ""
 "Avete ricevuto un messaggio radio di origine sconosciuta. Qualcuno vi chiede"
-" di consegnare ${importo} ${bene} in un luogo specifico. Dicono che si "
+" di consegnare ${amount} ${good} in un luogo specifico. Dicono che si "
 "tratta di un'emergenza."
 
 #: ./data/scripts/player/missions/piratedelivery.lua:
@@ -62084,7 +62084,7 @@ msgstr ""
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid "Pick up Captain ${name} at the station in (${x}:${y})"
-msgstr "Prendere il capitano ${nome} alla stazione di (${x}:${y})"
+msgstr "Prendere il capitano ${name} alla stazione di (${x}:${y})"
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgctxt "female variant"
@@ -62095,7 +62095,7 @@ msgstr ""
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid "I'm looking for ${name}."
-msgstr "Sto cercando ${nome}."
+msgstr "Sto cercando ${name}."
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid ""
@@ -62164,11 +62164,11 @@ msgstr "Perché mi stai cercando?"
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid "${name} is looking for you."
-msgstr "${nome} ti sta cercando."
+msgstr "${name} ti sta cercando."
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid "Ah ${name}, he always has my back. I'll contact him immediately!"
-msgstr "Ah ${nome}, mi copre sempre le spalle. Lo contatterò immediatamente!"
+msgstr "Ah ${name}, mi copre sempre le spalle. Lo contatterò immediatamente!"
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid ""
@@ -62237,15 +62237,15 @@ msgid ""
 msgstr ""
 "Mancante:\n"
 "Nome: ${displayName}\n"
-"Professione: ${classe}\n"
-"Età: ${età}\n"
+"Professione: ${class}\n"
+"Età: ${age}\n"
 "Ultima posizione conosciuta: (${x}:${y})\n"
 "\n"
 "È passato un po' di tempo dall'ultima volta che ho avuto notizie dal mio buon amico ${nome visualizzato}. Di solito si fa vivo regolarmente. Sono preoccupato che possa essergli successo qualcosa di brutto. L'unico indizio che ho è il suo ultimo messaggio in cui diceva che stava andando al settore (${x}:${y}). Per favore, aiutatemi a trovare il mio amico!\n"
 "\n"
 "Chiunque riesca a condurmi da lui riceverà una ricompensa di ${ricompensa}¢!\n"
 "\n"
-"${cliente}"
+"${client}"
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid ""
@@ -62263,15 +62263,15 @@ msgid ""
 msgstr ""
 "Mancante:\n"
 "Nome: ${displayName}\n"
-"Professione: ${classe}\n"
-"Età: ${età}\n"
+"Professione: ${class}\n"
+"Età: ${age}\n"
 "Ultima posizione conosciuta: (${x}:${y})\n"
 "\n"
 "È passato un po' di tempo dall'ultima volta che ho avuto notizie dalla mia cara amica ${displayName}. Di solito si fa sentire regolarmente. Sono preoccupato che le sia successo qualcosa di brutto. L'unico indizio che ho è il suo ultimo messaggio in cui diceva di essere in viaggio verso il settore (${x}:${y}). Per favore, aiutatemi a trovare la mia amica!\n"
 "\n"
 "Chiunque riesca a condurmi da lei riceverà una ricompensa di ${ricompensa}¢!\n"
 "\n"
-"${cliente}"
+"${client}"
 
 #: ./data/scripts/player/missions/receivecaptainmission.lua:
 msgid "Check the last known location of the missing person in \\s(%2%:%3%)."
@@ -62553,7 +62553,7 @@ msgstr ""
 
 #: ./data/scripts/player/missions/transfervessel.lua:
 msgid "I understand the terms and will pay the ${deposit} Credits."
-msgstr "Comprendo i termini e pagherò il ${deposito} Crediti."
+msgstr "Comprendo i termini e pagherò il ${deposit} Crediti."
 
 #: ./data/scripts/player/missions/transfervessel.lua:
 msgid "I don't want to do this anymore."
@@ -62629,7 +62629,7 @@ msgid ""
 " the repair costs from your deposit. You will get ${amount} Credits back."
 msgstr ""
 "Mh, qualche piccolo graffio. Beh, credo che qualche graffio vada bene. "
-"Detrarrò i costi di riparazione dal suo deposito. Avrà indietro ${importo} "
+"Detrarrò i costi di riparazione dal suo deposito. Avrà indietro ${amount} "
 "crediti."
 
 #: ./data/scripts/player/missions/transfervessel.lua:
@@ -62683,13 +62683,13 @@ msgstr "Elenco degli ingredienti: ${turret} Torretta"
 msgid ""
 "Collect the following ingredients to build a ${rarity} ${turret} Turret."
 msgstr ""
-"Raccogli i seguenti ingredienti per costruire una ${rarità} ${torretta} "
+"Raccogli i seguenti ingredienti per costruire una ${rarity} ${torretta} "
 "Torretta."
 
 #: ./data/scripts/player/missions/turretbuilding.lua:
 #: ./data/scripts/player/story/smugglerretaliation.lua:
 msgid "${good}: ${have}/${needed}"
-msgstr "${buono}: ${have}/${need}"
+msgstr "${good}: ${have}/${need}"
 
 #: ./data/scripts/player/missions/turretbuilding.lua:
 msgid ""
@@ -62795,7 +62795,7 @@ msgstr "COSTRUIRE LA CONOSCENZA"
 
 #: ./data/scripts/player/missions/tutorials/buildingknowledgemission.lua:
 msgid "Acquire Tier ${tier} Building Knowledge for ${material}:"
-msgstr "Acquisire conoscenze edilizie di livello ${tier} per ${materiale}:"
+msgstr "Acquisire conoscenze edilizie di livello ${tier} per ${material}:"
 
 #: ./data/scripts/player/missions/tutorials/buildingknowledgemission.lua:
 msgid "Fly closer to the center of the galaxy"
@@ -62830,7 +62830,7 @@ msgstr "Attivare la Conoscenza dell'edificio dall'inventario"
 
 #: ./data/scripts/player/missions/tutorials/buildingknowledgemission.lua:
 msgid "Tier ${tier} - ${material}"
-msgstr "Livello ${tier} - ${materiale} - ${materiale}"
+msgstr "Livello ${tier} - ${material}"
 
 #: ./data/scripts/player/missions/tutorials/buildingknowledgemission.lua:
 msgid "${missionText} ${status}"
@@ -62850,7 +62850,7 @@ msgstr "Squadra di avventurieri"
 msgid ""
 "Learn how to use fighters. A complete guide by ${name}, the Adventurer."
 msgstr ""
-"Imparare a usare i combattenti. Una guida completa a cura di ${nome}, "
+"Imparare a usare i combattenti. Una guida completa a cura di ${name}, "
 "l'Avventuriero."
 
 #: ./data/scripts/player/missions/tutorials/fightertutorial.lua:
@@ -62999,7 +62999,7 @@ msgstr "Fondazione della stazione"
 #: ./data/scripts/player/missions/tutorials/foundstationtutorial.lua:
 msgid ""
 "${name} the Adventurer wants to teach you how to found your own station."
-msgstr "${nome} l'Avventuriero vuole insegnarti a fondare la tua stazione."
+msgstr "${name} l'Avventuriero vuole insegnarti a fondare la tua stazione."
 
 #: ./data/scripts/player/missions/tutorials/foundstationtutorial.lua:
 msgid "Select 'Station Founder' when having a ship built at a shipyard."
@@ -63123,7 +63123,7 @@ msgid ""
 "Improve your ship to prepare for a fight. Tips from ${name}, the Adventurer."
 msgstr ""
 "Migliorate la vostra nave per prepararvi a un combattimento. Consigli di "
-"${nome}, l'Avventuriero."
+"${name}, l'Avventuriero."
 
 #: ./data/scripts/player/missions/tutorials/pirateraidmission.lua:
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
@@ -63282,7 +63282,7 @@ msgstr ""
 
 #: ./data/scripts/player/missions/tutorials/strategymodetutorial.lua:
 msgid "${name} the Adventurer has a surprise for you."
-msgstr "${nome} l'Avventuriero ha una sorpresa per te."
+msgstr "${name} l'Avventuriero ha una sorpresa per te."
 
 #: ./data/scripts/player/missions/tutorials/strategymodetutorial.lua:
 msgid "Read the mail from the Adventurer"
@@ -63491,7 +63491,7 @@ msgstr "Utilizzare il siluro per distruggere il pirata"
 msgid ""
 "Learn how to use torpedoes. A complete guide by ${name}, the Adventurer."
 msgstr ""
-"Impara a usare i siluri. Una guida completa a cura di ${nome}, "
+"Impara a usare i siluri. Una guida completa a cura di ${name}, "
 "l'Avventuriero."
 
 #: ./data/scripts/player/missions/tutorials/torpedoestutorial.lua:
@@ -65798,7 +65798,7 @@ msgstr "È un'offerta molto generosa. Grazie, accettiamo."
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Place an offer to improve your relations by ${amount} points."
-msgstr "Fai un'offerta per migliorare le tue relazioni di ${importo} punti."
+msgstr "Fai un'offerta per migliorare le tue relazioni di ${amount} punti."
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Negotiate Ceasefire"
@@ -65898,16 +65898,16 @@ msgstr "Vuoi davvero dichiarare guerra?"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "¢${value}"
-msgstr "¢${valore}"
+msgstr "¢${value}"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "${name} [Eradicated]"
-msgstr "${nome} [Sradicato]"
+msgstr "${name} [Eradicato]"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgctxt "location on map"
 msgid "Unknown Location"
-msgstr "Posizione sconosciuta"
+msgstr "Posizione Sconosciuta"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Relations: %d"
@@ -65915,7 +65915,7 @@ msgstr "Relazioni: %d"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Relations of ${relations} required"
-msgstr "Sono richieste le relazioni di ${relazioni}"
+msgstr "Sono richieste le relazioni di ${relations}"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid ""
@@ -65943,7 +65943,7 @@ msgstr "\\c(777)Non si sa molto di questa fazione.\\c()"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "${trait} (${percentage}%)"
-msgstr "${tratto} (${percentuale}%)"
+msgstr "${trait} (${percentage}%)"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Tend to send fewer reinforcements when supporting allies"
@@ -66217,11 +66217,11 @@ msgstr "Nessun sindacato è rispettabile"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Do you really want to declare war against ${faction}?"
-msgstr "Vuoi davvero dichiarare guerra a ${fazione}?"
+msgstr "Vuoi davvero dichiarare guerra a ${faction}?"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Do you really no longer want to be allied with ${faction}?"
-msgstr "Davvero non volete più essere alleati con ${fazione}?"
+msgstr "Davvero non volete più essere alleati con ${faction}?"
 
 #: ./data/scripts/player/ui/diplomacy.lua:
 msgid "Confirm Abandoning Allies"
@@ -71679,7 +71679,7 @@ msgstr "Profilo del giocatore"
 
 #: ./data/scripts/player/ui/profile/playerprofile.lua:
 msgid "Milestone Unlocked: ${description}"
-msgstr "Pietra miliare sbloccata: ${descrizione}"
+msgstr "Pietra miliare sbloccata: ${description}"
 
 #: ./data/scripts/player/ui/profile/playerprofile.lua:
 msgid "Collect Iron."
@@ -73639,7 +73639,7 @@ msgid ""
 "\n"
 "Classify these ships as hostile and destroy them along with the others!"
 msgstr ""
-"A tutta la flotta: ${nome} ci sta attaccando!\n"
+"A tutta la flotta: ${name} ci sta attaccando!\n"
 "\n"
 "Classificare queste navi come ostili e distruggerle insieme alle altre!"
 
@@ -74058,7 +74058,7 @@ msgstr "Nemico identificato... Protocolli di difesa attivati..."
 
 #: ./data/scripts/sector/worldbosses/ancientsentinel.lua:
 msgid "Sentinel ${serialNumber}"
-msgstr "Sentinella ${numero di serie}"
+msgstr "Sentinella ${serialNumber}"
 
 #: ./data/scripts/sector/worldbosses/ancientsentinel.lua:
 msgid "Sector Logbook"
@@ -74828,7 +74828,7 @@ msgstr "Log"
 
 #: ./data/scripts/sector/worldbosses/revoltingprisonship.lua:
 msgid "Excerpts from ${writerName}'s diary."
-msgstr "Estratti dal diario di ${scrittoreNome}."
+msgstr "Estratti dal diario di ${writerName}."
 
 #: ./data/scripts/sector/worldbosses/revoltingprisonship.lua:
 msgid "TB-0541"
@@ -76170,7 +76170,7 @@ msgstr "Capacità energetica"
 # ========== ./data/scripts/systems/behemothcarriersystem.lua ==========
 #: ./data/scripts/systems/behemothcarriersystem.lua:
 msgid "Dozen-headed Behemoth ${serialNumber}"
-msgstr "Behemoth con decine di teste ${numero seriale}"
+msgstr "Behemoth con decine di teste ${serialNumber}"
 
 #: ./data/scripts/systems/behemothcarriersystem.lua:
 msgctxt "generic name for 'Dozen-headed Behemoth ${serialNumber}'"
@@ -76234,7 +76234,7 @@ msgstr "Potenziatore di esplorazione Behemoth"
 #: ./data/scripts/systems/behemothhyperspacesystem.lua:
 msgctxt "ex: R-4 Behemoth Exploration Booster"
 msgid "${reach}${type}"
-msgstr "${reach}${tipo}"
+msgstr "${reach}${type}"
 
 #: ./data/scripts/systems/behemothhyperspacesystem.lua:
 msgid "Exploration Booster"
@@ -76433,7 +76433,7 @@ msgstr "A sette teste"
 
 #: ./data/scripts/systems/fightersquadsystem.lua:
 msgid "${rarityName} Hydra ${serialNumber}"
-msgstr "${nomeRarità} Idra ${numeroSerie}"
+msgstr "${rarityName} Idra ${serialNumber}"
 
 #: ./data/scripts/systems/fightersquadsystem.lua:
 msgctxt "generic name for '${rarityName} Hydra ${serialNumber}'"
@@ -76494,7 +76494,7 @@ msgstr "Sottosistema minerario"
 #: ./data/scripts/systems/miningsystem.lua:
 msgctxt "ex: Advanced OG-Mining Subsystem Plus"
 msgid "${class} ${material}-${name}"
-msgstr "${classe} ${materiale}-${nome}"
+msgstr "${class} ${material}-${name}"
 
 # ========== ./data/scripts/systems/radarbooster.lua ==========
 #: ./data/scripts/systems/radarbooster.lua:
@@ -76539,7 +76539,7 @@ msgstr "Ionizzatore a scudo solidificante"
 #: ./data/scripts/systems/resistancesystem.lua:
 msgctxt "ex: Plasmatic Shield Ionizer MK III"
 msgid "${name} MK ${mark}"
-msgstr "${nome} MK ${marchio}"
+msgstr "${name} MK ${mark}"
 
 #: ./data/scripts/systems/resistancesystem.lua:
 msgid "Resistance against"
@@ -76565,7 +76565,7 @@ msgstr "%s armi."
 #: ./data/scripts/systems/scannerbooster.lua:
 msgctxt "ex: T-5-12D Scanner Booster"
 msgid "T-${rarity}-${serial} Scanner Booster"
-msgstr "T-${rarità}-${serial} Potenziatore dello scanner"
+msgstr "T-${rarity}-${serial} Potenziatore dello scanner"
 
 #: ./data/scripts/systems/scannerbooster.lua:
 msgctxt "generic name for 'T-${rarity}-${serial} Scanner Booster'"
@@ -76590,7 +76590,7 @@ msgstr "Scudiero"
 #: ./data/scripts/systems/shieldbooster.lua:
 msgctxt "ex: 1Q-4000 Reviving Shield Booster"
 msgid "${serial}-${rarity} Reviving ${name}"
-msgstr "${serial}-${rarity} Rivivificare ${nome}"
+msgstr "${serial}-${rarity} Rivivificare ${name}"
 
 #: ./data/scripts/systems/shieldbooster.lua:
 msgctxt "ex: 1Q-4000 Shielder"
@@ -76817,7 +76817,7 @@ msgstr "graffi sulla sua superficie."
 # ========== ./data/scripts/systems/tradingoverview.lua ==========
 #: ./data/scripts/systems/tradingoverview.lua:
 msgid "Basic Trading Subsystem v${version}.${patch}"
-msgstr "Sottosistema Trading di base v${versione}.${patch}"
+msgstr "Sottosistema Trading di base v${version}.${patch}"
 
 #: ./data/scripts/systems/tradingoverview.lua:
 msgid "Improved Trading Subsystem v${version}.${patch}"
@@ -77111,7 +77111,7 @@ msgstr "Weeeeeee!"
 # ========== ./data/scripts/systems/weaknesssystem.lua ==========
 #: ./data/scripts/systems/weaknesssystem.lua:
 msgid "W-${designation}-Hull Polarizer ${rarity}"
-msgstr "W-${designazione}-Scafo Polarizzatore ${rarità}"
+msgstr "W-${designation}-Scafo Polarizzatore ${rarity}"
 
 #: ./data/scripts/systems/weaknesssystem.lua:
 msgctxt "generic name for 'W-${designation}-Hull Polarizer ${rarity}'"
@@ -77120,7 +77120,7 @@ msgstr "Polarizzatore dello scafo"
 
 #: ./data/scripts/systems/weaknesssystem.lua:
 msgid "Hull Durability"
-msgstr "Durata dello scafo"
+msgstr "Integrita Scafo"
 
 #: ./data/scripts/systems/weaknesssystem.lua:
 msgid "Weakness against"
@@ -77145,7 +77145,7 @@ msgstr "più danni dalle armi %s."
 # ========== ./data/scripts/systems/wormholeopener.lua ==========
 #: ./data/scripts/systems/wormholeopener.lua:
 msgid "[Harness Wormhole Power]"
-msgstr "[Sfruttare il potere dei wormhole]"
+msgstr "[Sfruttare il Potere dei Wormhole]"
 
 #: ./data/scripts/systems/wormholeopener.lua:
 msgid "This didn't work."
@@ -78608,7 +78608,7 @@ msgstr[1] "Bobine Tesla Militare"
 
 #: goods_template.xml:
 msgctxt "prefix"
-msgid "Military Tesla Coil"
+msgid "Military Tesla Coil"Tesla Coil
 msgstr "Bobina Tesla Militare"
 
 #: goods_template.xml:
@@ -78641,13 +78641,13 @@ msgstr ""
 #: goods_template.xml:
 msgid "Drill"
 msgid_plural "Drills"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Trivella"
+msgstr[1] "Trivelle"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Drill"
-msgstr "Trapano"
+msgstr "Trivella"
 
 #: goods_template.xml:
 msgid "Mining drill, often used in asteroid mines."
@@ -78656,13 +78656,13 @@ msgstr "Trivella mineraria, spesso utilizzata nelle miniere di asteroidi."
 #: goods_template.xml:
 msgid "Industrial Tesla Coil"
 msgid_plural "Industrial Tesla Coils"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bobina Tesla industriale"
+msgstr[1] "Bobine Tesla industriali"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Industrial Tesla Coil"
-msgstr "Bobina di Tesla industriale"
+msgstr "Bobina Tesla industriale"
 
 #: goods_template.xml:
 msgid "Tesla coil used for melting of metals in factories."
@@ -78672,32 +78672,32 @@ msgstr ""
 #: goods_template.xml:
 msgid "Mining Robot"
 msgid_plural "Mining Robots"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Robot Minatore"
+msgstr[1] "Robot Minatori"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Mining Robot"
-msgstr "Robot da miniera"
+msgstr "Robot Minatore"
 
 #: goods_template.xml:
 msgid ""
 "A big robot used for mining in asteroid shafts where human beings would not "
 "survive."
 msgstr ""
-"Un grande robot utilizzato per l'estrazione mineraria nei pozzi degli "
-"asteroidi dove gli esseri umani non sopravvivrebbero."
+"Un grande robot utilizzato per l'estrazione in miniere di asteroidi in"
+" cui gli esseri umani non potrebbero sopravvivere."
 
 #: goods_template.xml:
 msgid "High Capacity Lens"
 msgid_plural "High Capacity Lenses"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Lente ad Alta Capacità"
+msgstr[1] "Lenti ad Alta Capacità"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "High Capacity Lens"
-msgstr "Obiettivo ad alta capacità"
+msgstr "Lente ad Alta Capacità"
 
 #: goods_template.xml:
 msgid "A focal lens designed for high capacity lasers."
@@ -78706,8 +78706,8 @@ msgstr "Una lente focale progettata per laser ad alta capacità."
 #: goods_template.xml:
 msgid "Vehicle"
 msgid_plural "Vehicles"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Veicolo"
+msgstr[1] "Veicoli"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78716,13 +78716,13 @@ msgstr "Veicolo"
 
 #: goods_template.xml:
 msgid "A vehicle used for planetary exploration missions."
-msgstr "Un veicolo utilizzato per le missioni di esplorazione planetaria."
+msgstr "Un veicolo utilizzato per missioni di esplorazione planetaria."
 
 #: goods_template.xml:
 msgid "Water"
 msgid_plural "Water"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Acqua"
+msgstr[1] "Acqua"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78731,13 +78731,13 @@ msgstr "Acqua"
 
 #: goods_template.xml:
 msgid "A tank full of clear water."
-msgstr "Una vasca piena di acqua limpida."
+msgstr "Un serbatoio pieno di acqua limpida."
 
 #: goods_template.xml:
 msgid "Plankton"
 msgid_plural "Plankton"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Plancton"
+msgstr[1] "Plancton"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78746,28 +78746,28 @@ msgstr "Plancton"
 
 #: goods_template.xml:
 msgid "A tank full of live plankton."
-msgstr "Una vasca piena di plancton vivo."
+msgstr "Un serbatoio pieno di plancton vivo."
 
 #: goods_template.xml:
 msgid "Plant"
 msgid_plural "Plants"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pianta"
+msgstr[1] "Piante"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Plant"
-msgstr "Impianto"
+msgstr "Pianta"
 
 #: goods_template.xml:
 msgid "A container with soil and a wide range of green plants."
-msgstr "Un contenitore con terriccio e una vasta gamma di piante verdi."
+msgstr "Un contenitore con terriccio e una varietà di piante verdi."
 
 #: goods_template.xml:
 msgid "Wheat"
 msgid_plural "Wheat"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Grano"
+msgstr[1] "Grano"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78781,13 +78781,13 @@ msgstr "Un contenitore pieno di grano."
 #: goods_template.xml:
 msgid "Rice"
 msgid_plural "Rice"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Riso"
+msgstr[1] "Riso"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rice"
-msgstr "Il riso"
+msgstr "Riso"
 
 #: goods_template.xml:
 msgid "A container full of rice."
@@ -78796,13 +78796,13 @@ msgstr "Un contenitore pieno di riso."
 #: goods_template.xml:
 msgid "Potato"
 msgid_plural "Potatoes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Patata"
+msgstr[1] "Patate"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Potato"
-msgstr "Potato"
+msgstr "Patata"
 
 #: goods_template.xml:
 msgid "A container full of potatoes."
@@ -78811,8 +78811,8 @@ msgstr "Un contenitore pieno di patate."
 #: goods_template.xml:
 msgid "Corn"
 msgid_plural "Corn"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Mais"
+msgstr[1] "Mais"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78826,8 +78826,8 @@ msgstr "Un contenitore pieno di mais."
 #: goods_template.xml:
 msgid "Wood"
 msgid_plural "Wood"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Legno"
+msgstr[1] "Legno"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78841,26 +78841,26 @@ msgstr "Un grosso blocco di legno compresso."
 #: goods_template.xml:
 msgid "Fruit"
 msgid_plural "Fruits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Frutta"
+msgstr[1] "Frutta"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Fruit"
-msgstr "La frutta"
+msgstr "Frutta"
 
 #: goods_template.xml:
 msgid ""
 "A specially engineered fruit, containing a wide range of important vitamins."
 msgstr ""
-"Un frutto appositamente studiato, contenente un'ampia gamma di importanti "
-"vitamine."
+"Un frutto appositamente progettato, contenente un'ampia gamma di vitamine "
+"importanti."
 
 #: goods_template.xml:
 msgid "Coffee"
 msgid_plural "Coffee"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Caffè"
+msgstr[1] "Caffè"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78869,13 +78869,13 @@ msgstr "Caffè"
 
 #: goods_template.xml:
 msgid "A bag of roasted coffee beans."
-msgstr "Un sacchetto di chicchi di caffè tostati."
+msgstr "Un sacco di chicchi di caffè tostato."
 
 #: goods_template.xml:
 msgid "Cocoa"
 msgid_plural "Cocoa"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Cacao"
+msgstr[1] "Cacao"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78889,8 +78889,8 @@ msgstr "Un sacchetto di fave di cacao tostate."
 #: goods_template.xml:
 msgid "Tea"
 msgid_plural "Tea"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tè"
+msgstr[1] "Tè"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78899,28 +78899,28 @@ msgstr "Tè"
 
 #: goods_template.xml:
 msgid "A bag of various dried teas."
-msgstr "Un sacchetto di vari tè essiccati."
+msgstr "Un sacco di vari tè secchi."
 
 #: goods_template.xml:
 msgid "Vegetable"
 msgid_plural "Vegetables"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verdura"
+msgstr[1] "Verdure"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Vegetable"
-msgstr "Vegetale"
+msgstr "Verdura"
 
 #: goods_template.xml:
 msgid "A container with different sorts of vegetables."
-msgstr "Un contenitore con diversi tipi di verdure."
+msgstr "Un contenitore con diversi tipi di verdura."
 
 #: goods_template.xml:
 msgid "Spices"
 msgid_plural "Spices"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Spezie"
+msgstr[1] "Spezie"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78929,13 +78929,13 @@ msgstr "Spezie"
 
 #: goods_template.xml:
 msgid "A box with various little bags of spices."
-msgstr "Una scatola con vari sacchettini di spezie."
+msgstr "Una scatola con vari sacchetti di spezie."
 
 #: goods_template.xml:
 msgid "Sheep"
 msgid_plural "Sheep"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pecora"
+msgstr[1] "Pecore"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78949,8 +78949,8 @@ msgstr "Pecora."
 #: goods_template.xml:
 msgid "Fungus"
 msgid_plural "Fungi"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fungo"
+msgstr[1] "Funghi"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78959,13 +78959,13 @@ msgstr "Fungo"
 
 #: goods_template.xml:
 msgid "A container with fungus, used for making alcohol."
-msgstr "Un contenitore con funghi, utilizzato per la produzione di alcol."
+msgstr "Un contenitore con funghi, usato per produrre alcol."
 
 #: goods_template.xml:
 msgid "Cattle"
 msgid_plural "Cattle"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bestiame"
+msgstr[1] "Bestiame"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78979,8 +78979,8 @@ msgstr "Bestiame."
 #: goods_template.xml:
 msgid "Fish"
 msgid_plural "Fish"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pesce"
+msgstr[1] "Pesci"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -78989,13 +78989,13 @@ msgstr "Pesce"
 
 #: goods_template.xml:
 msgid "A barrel full of fish."
-msgstr "Un barile pieno di pesci."
+msgstr "Un barile pieno di pesce."
 
 #: goods_template.xml:
 msgid "Protein"
 msgid_plural "Protein"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Proteine"
+msgstr[1] "Proteine"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79004,13 +79004,13 @@ msgstr "Proteine"
 
 #: goods_template.xml:
 msgid "Protein for quickly restoring one's energy."
-msgstr "Proteine per ripristinare rapidamente le energie."
+msgstr "Proteine per ripristinare rapidamente l'energia."
 
 #: goods_template.xml:
 msgid "Meat"
 msgid_plural "Meat"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Carne"
+msgstr[1] "Carni"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79019,13 +79019,13 @@ msgstr "Carne"
 
 #: goods_template.xml:
 msgid "A box full of fresh meat."
-msgstr "Una scatola piena di carne fresca."
+msgstr "Una confezione piena di carne fresca."
 
 #: goods_template.xml:
 msgid "Dairy"
 msgid_plural "Dairy"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Latticini"
+msgstr[1] "Latticini"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79034,13 +79034,13 @@ msgstr "Latticini"
 
 #: goods_template.xml:
 msgid "A tank full of dairy products, like yoghurt or butter."
-msgstr "Un serbatoio pieno di prodotti caseari, come yogurt o burro."
+msgstr "Un serbatoio pieno di latticini, come yogurt o burro."
 
 #: goods_template.xml:
 msgid "Fabric"
 msgid_plural "Fabric"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tessuto"
+msgstr[1] "Tessuti"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79049,13 +79049,13 @@ msgstr "Tessuto"
 
 #: goods_template.xml:
 msgid "Raw fabric used for clothing or bandages."
-msgstr "Tessuto grezzo utilizzato per indumenti o bendaggi."
+msgstr "Tessuto grezzo usato per abbigliamento o bende."
 
 #: goods_template.xml:
 msgid "Leather"
 msgid_plural "Leather"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pelle"
+msgstr[1] "Pelli"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79064,13 +79064,13 @@ msgstr "Pelle"
 
 #: goods_template.xml:
 msgid "Treated leather, made from various animal hides."
-msgstr "Pelle trattata, ricavata da vari pellami animali."
+msgstr "Pelle trattata, fatta da varie pelli di animali."
 
 #: goods_template.xml:
 msgid "Clothes"
 msgid_plural "Clothes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vestiti"
+msgstr[1] "Vestiti"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79079,18 +79079,18 @@ msgstr "Vestiti"
 
 #: goods_template.xml:
 msgid "Normal looking clothing."
-msgstr "Abbigliamento dall'aspetto normale."
+msgstr "Vestiti dall'aspetto normale."
 
 #: goods_template.xml:
 msgid "Paper"
 msgid_plural "Paper"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Carta"
+msgstr[1] "Carta"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Paper"
-msgstr "Paper"
+msgstr "Carta"
 
 #: goods_template.xml:
 msgid "A big stash of paper."
@@ -79099,8 +79099,8 @@ msgstr "Una grande scorta di carta."
 #: goods_template.xml:
 msgid "Beer"
 msgid_plural "Beer"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Birra"
+msgstr[1] "Birre"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79109,13 +79109,13 @@ msgstr "Birra"
 
 #: goods_template.xml:
 msgid "A box of beer."
-msgstr "Una scatola di birra."
+msgstr "Una confezione di birra."
 
 #: goods_template.xml:
 msgid "Wine"
 msgid_plural "Wine"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vino"
+msgstr[1] "Vini"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79124,18 +79124,18 @@ msgstr "Vino"
 
 #: goods_template.xml:
 msgid "A box of wine."
-msgstr "Una scatola di vino."
+msgstr "Una confezione di vino."
 
 #: goods_template.xml:
 msgid "Liquor"
 msgid_plural "Liquor"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Liquore"
+msgstr[1] "Liquori"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Liquor"
-msgstr "Liquori"
+msgstr "Liquore"
 
 #: goods_template.xml:
 msgid "A box of high quality liquor."
@@ -79144,8 +79144,8 @@ msgstr "Una confezione di liquore di alta qualità."
 #: goods_template.xml:
 msgid "Food"
 msgid_plural "Food"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Cibo"
+msgstr[1] "Cibi"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79154,18 +79154,18 @@ msgstr "Cibo"
 
 #: goods_template.xml:
 msgid "Healthy food packaged in one-man portions."
-msgstr "Cibo sano confezionato in porzioni monodose."
+msgstr "Cibo salutare confezionato in porzioni per una persona."
 
 #: goods_template.xml:
 msgid "Food Bar"
 msgid_plural "Food Bars"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Barretta Alimentare"
+msgstr[1] "Barretta Alimentare"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Food Bar"
-msgstr "Bar del cibo"
+msgstr "Barretta Alimentare"
 
 #: goods_template.xml:
 msgid "Bars of compressed food."
@@ -79174,23 +79174,23 @@ msgstr "Barrette di cibo compresso."
 #: goods_template.xml:
 msgid "Luxury Food"
 msgid_plural "Luxury Food"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Cibo di Lusso"
+msgstr[1] "Cibi di Lusso"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Luxury Food"
-msgstr "Cibo di lusso"
+msgstr "Cibo di Lusso"
 
 #: goods_template.xml:
 msgid "Luxurious food, made for the rich only."
-msgstr "Cibo di lusso, fatto solo per i ricchi."
+msgstr "Cibo lussuoso, fatto solo per i ricchi."
 
 #: goods_template.xml:
 msgid "Book"
 msgid_plural "Books"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Libro"
+msgstr[1] "Libri"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79199,13 +79199,13 @@ msgstr "Libro"
 
 #: goods_template.xml:
 msgid "A book with an exciting, procedurally generated story."
-msgstr "Un libro con una storia emozionante e generata proceduralmente."
+msgstr "Un libro con una storia emozionante, generata proceduralmente."
 
 #: goods_template.xml:
 msgid "Jewelry"
 msgid_plural "Jewelry"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Gioielli"
+msgstr[1] "Gioielli"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79219,8 +79219,8 @@ msgstr "Gioielli bellissimi e molto costosi."
 #: goods_template.xml:
 msgid "Slave"
 msgid_plural "Slaves"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Schiavo"
+msgstr[1] "Schiavi"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79230,35 +79230,36 @@ msgstr "Schiavo"
 #: goods_template.xml:
 msgid "An unfree life form forced to work for almost no food."
 msgstr ""
-"Una forma di vita non libera, costretta a lavorare per un cibo quasi "
-"inesistente."
+"Una forma di vita non libera costretta a lavorare per quasi "
+"no nulla di cibo."
 
 #: goods_template.xml:
 msgid "Morn Drug"
 msgid_plural "Morn Drugs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Droga del mattino"
+msgstr[1] "Droga del mattino"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Morn Drug"
-msgstr "Droga del mattino"
+msgstr "Droghe del mattino"
 
 #: goods_template.xml:
 msgid "An addictive drug that gives the user strong hallucinations."
 msgstr ""
-"Una droga che crea dipendenza e che dà al consumatore forti allucinazioni."
+"Una droga che crea dipendenza e provoca forti allucinazioni a chi "
+"la assume."
 
 #: goods_template.xml:
 msgid "Acron Drug"
 msgid_plural "Acron Drugs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Farmaco Acron"
+msgstr[1] "Farmaci Acron"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Acron Drug"
-msgstr "Acron Farmaco"
+msgstr "Farmaco Acron"
 
 #: goods_template.xml:
 msgid "A highly addictive drug."
@@ -79267,73 +79268,73 @@ msgstr "Una droga che crea forte dipendenza."
 #: goods_template.xml:
 msgid "Iron Ore"
 msgid_plural "Iron Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Ferro"
+msgstr[1] "Minerali di Ferro"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Iron Ore"
-msgstr "Minerale di ferro"
+msgstr "Minerale di Ferro"
 
 #: goods_template.xml:
 msgid "Iron ore that can be refined into Iron."
-msgstr "Minerale di ferro che può essere raffinato in ferro."
+msgstr "Minerale di Ferro che può essere raffinato in Ferro."
 
 #: goods_template.xml:
 msgid "Titanium Ore"
 msgid_plural "Titanium Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Titanio"
+msgstr[1] "Minerali di Titanio"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Titanium Ore"
-msgstr "Minerale di titanio"
+msgstr "Minerale di Titanio"
 
 #: goods_template.xml:
 msgid "Titanium ore that can be refined into Titanium."
-msgstr "Minerale di titanio che può essere raffinato in titanio."
+msgstr "Minerale di Titanio che può essere raffinato in Titanio."
 
 #: goods_template.xml:
 msgid "Naonite Ore"
 msgid_plural "Naonite Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Naonite"
+msgstr[1] "Minerali di Naonite"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Naonite Ore"
-msgstr "Minerale di naonite"
+msgstr "Minerale di Naonite"
 
 #: goods_template.xml:
 msgid "Naonite ore that can be refined into Naonite."
-msgstr "Minerale di naonite che può essere raffinato in naonite."
+msgstr "Minerale di Naonite che può essere raffinato in Naonite."
 
 #: goods_template.xml:
 msgid "Trinium Ore"
 msgid_plural "Trinium Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Trinium"
+msgstr[1] "Minerali di Trinium"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Trinium Ore"
-msgstr "Minerale di trinium"
+msgstr "Minerale di Trinium"
 
 #: goods_template.xml:
 msgid "Trinium ore that can be refined into Trinium."
-msgstr "Minerale di trinium che può essere raffinato in trinium."
+msgstr "Minerale di Trinium che può essere raffinato in Trinium."
 
 #: goods_template.xml:
 msgid "Xanion Ore"
 msgid_plural "Xanion Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Xanion"
+msgstr[1] "Minerali di Xanion"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Xanion Ore"
-msgstr "Minerale Xanion"
+msgstr "Minerale di Xanion"
 
 #: goods_template.xml:
 msgid "Xanion ore that can be refined into Xanion."
@@ -79342,8 +79343,8 @@ msgstr "Minerale di Xanion che può essere raffinato in Xanion."
 #: goods_template.xml:
 msgid "Ogonite Ore"
 msgid_plural "Ogonite Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Ogonite"
+msgstr[1] "Minerali di Ogonite"
 
 #: goods_template.xml:
 msgctxt "prefix"
@@ -79357,148 +79358,142 @@ msgstr "Minerale di Ogonite che può essere raffinato in Ogonite."
 #: goods_template.xml:
 msgid "Avorion Ore"
 msgid_plural "Avorion Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Avorion"
+msgstr[1] "Minerali di Avorion"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Avorion Ore"
-msgstr "Avorion Ore"
+msgstr "Minerale di Avorion"
 
 #: goods_template.xml:
 msgid "Avorion ore that can be refined into Avorion."
-msgstr "minerale Avorion che può essere raffinato in Avorion."
+msgstr "Minerale di Avorion che può essere raffinato in Avorion."
 
 #: goods_template.xml:
 msgid "Rift Iron Ore"
 msgid_plural "Rift Iron Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Ferro dal Rift"
+msgstr[1] "Minerali di Ferro dal Rift"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Iron Ore"
-msgstr "Minerale di ferro Rift"
+msgstr "Minerale di Ferro dal Rift"
 
 #: goods_template.xml:
 msgid ""
 "Very rich Iron ore that can only be found in rifts. Can be refined into "
 "Iron. Yields 4x as much as normal Iron Ore."
 msgstr ""
-"Minerale di ferro molto ricco che può essere trovato solo nelle spaccature. "
-"Può essere raffinato in ferro. Rende 4 volte di più del normale minerale di "
-"ferro."
+"Minerale di ferro molto ricco che può essere trovato solo nel Rift. Può "
+"essere raffinato in ferro. Rende 4 volte il normale minerale di ferro."
 
 #: goods_template.xml:
 msgid "Rift Titanium Ore"
 msgid_plural "Rift Titanium Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Titanio dal Rift"
+msgstr[1] "Minerali di Titanio dal Rift"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Titanium Ore"
-msgstr "Minerale di titanio Rift"
+msgstr "Minerale di Titanio dal Rift"
 
 #: goods_template.xml:
 msgid ""
 "Very rich Titanium ore that can only be found in rifts. Can be refined into "
 "Titanium. Yields 4x as much as normal Titanium Ore."
 msgstr ""
-"Minerale di titanio molto ricco che si trova solo nelle spaccature. Può "
-"essere raffinato in titanio. Rende 4 volte di più del normale minerale di "
-"titanio."
+"Minerale di Titanio molto ricco che può essere trovato solo nel Rift. Può "
+"essere raffinato in Titanio. Rende 4 volte il normale minerale di Titanio."
 
 #: goods_template.xml:
 msgid "Rift Naonite Ore"
 msgid_plural "Rift Naonite Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Naonite dal Rift"
+msgstr[1] "Minerali di Naonite dal Rift"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Naonite Ore"
-msgstr "Minerale di naonite del Rift"
+msgstr "Minerale di Naonite dal Rift"
 
 #: goods_template.xml:
 msgid ""
 "Very rich Naonite ore that can only be found in rifts. Can be refined into "
 "Naonite. Yields 4x as much as normal Naonite Ore."
 msgstr ""
-"Minerale di naonite molto ricco che si trova solo nelle spaccature. Può "
-"essere raffinato in Naonite. Rende il doppio del normale minerale di "
-"naonite."
+"Minerale di Naonite molto ricco che può essere trovato solo nel Rift. Può "
+"essere raffinato in Naonite. Rende 4 volte il normale minerale di Naonite."
 
 #: goods_template.xml:
 msgid "Rift Trinium Ore"
 msgid_plural "Rift Trinium Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Trinium dal Rift"
+msgstr[1] "Minerali di Trinium dal Rift"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Trinium Ore"
-msgstr "Minerale di trinium di Rift"
+msgstr "Minerale di Trinium dal Rift"
 
 #: goods_template.xml:
 msgid ""
 "Very rich Trinium ore that can only be found in rifts. Can be refined into "
 "Trinium. Yields 4x as much as normal Trinium Ore."
 msgstr ""
-"Minerale di trinium molto ricco che si trova solo nelle spaccature. Può "
-"essere raffinato in Trinium. Rende 4 volte di più del normale minerale di "
-"trinium."
+"Minerale di Trinium molto ricco che può essere trovato solo nel Rift. Può "
+"essere raffinato in Trinium. Rende 4 volte il normale minerale di Trinium."
 
 #: goods_template.xml:
 msgid "Rift Xanion Ore"
 msgid_plural "Rift Xanion Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Xanion dal Rift"
+msgstr[1] "Minerali di Xanion dal Rift"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Xanion Ore"
-msgstr "Minerale Rift Xanion"
+msgstr "Minerale di Xanion dal Rift"
 
 #: goods_template.xml:
 msgid ""
 "Very rich Xanion ore that can only be found in rifts. Can be refined into "
 "Xanion. Yields 4x as much as normal Xanion Ore."
 msgstr ""
-"Minerale di Xanion molto ricco che si trova solo nelle spaccature. Può "
-"essere raffinato in Xanion. Rende 4 volte di più del normale minerale di "
-"Xanion."
+"Minerale di Xanion molto ricco che può essere trovato solo nel Rift. Può "
+"essere raffinato in Xanion. Rende 4 volte il normale minerale di Xanion."
 
 #: goods_template.xml:
 msgid "Rift Ogonite Ore"
 msgid_plural "Rift Ogonite Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Ogonite dal Rift"
+msgstr[1] "Minerali di Ogonite dal Rift"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Ogonite Ore"
-msgstr "Minerale di Ogonite del Rift"
+msgstr "Minerale di Ogonite dal Rift"
 
 #: goods_template.xml:
 msgid ""
 "Very rich Ogonite ore that can only be found in rifts. Can be refined into "
 "Ogonite. Yields 4x as much as normal Ogonite Ore."
 msgstr ""
-"Minerale di Ogonite molto ricco che si trova solo nelle spaccature. Può "
-"essere raffinato in Ogonite. Rende il doppio del normale minerale di "
-"Ogonite."
+"Minerale di Ogonite molto ricco che può essere trovato solo nel Rift. Può "
+"essere raffinato in Ogonite. Rende 4 volte il normale minerale di Ogonite."
 
 #: goods_template.xml:
 msgid "Rift Avorion Ore"
 msgid_plural "Rift Avorion Ore"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Minerale di Avorion dal Rift"
+msgstr[1] "Minerali di Avorion dal Rift"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Avorion Ore"
-msgstr "Minerale Rift Avorion"
+msgstr "Minerale di Avorion dal Rift"
 
 #: goods_template.xml:
 msgid ""
@@ -79511,135 +79506,135 @@ msgstr ""
 #: goods_template.xml:
 msgid "Scrap Iron"
 msgid_plural "Scrap Iron"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rottami di Ferro"
+msgstr[1] "Rottami di Ferro"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Scrap Iron"
-msgstr "Rottami di ferro"
+msgstr "Rottami di Ferro"
 
 #: goods_template.xml:
 msgid "Scrap Iron that can be refined into Iron."
-msgstr "Rottami di ferro che possono essere raffinati in ferro."
+msgstr "Rottami di Ferro che possono essere raffinati in Ferro."
 
 #: goods_template.xml:
 msgid "Scrap Titanium"
 msgid_plural "Scrap Titanium"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rottami di Titanio"
+msgstr[1] "Rottami di Titanio"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Scrap Titanium"
-msgstr "Rottami di titanio"
+msgstr "Rottami di Titanio"
 
 #: goods_template.xml:
 msgid "Scrap Titanium that can be refined into Titanium."
-msgstr "Rottami di titanio che possono essere raffinati in titanio."
+msgstr "Rottami di Titanio che possono essere raffinati in Titanio."
 
 #: goods_template.xml:
 msgid "Scrap Naonite"
 msgid_plural "Scrap Naonite"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rottami di Naonite"
+msgstr[1] "Rottami di Naonite"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Scrap Naonite"
-msgstr "Scarti di naonite"
+msgstr "Rottami di Naonite"
 
 #: goods_template.xml:
 msgid "Scrap Naonite that can be refined into Naonite."
-msgstr "Scarti di naonite che possono essere raffinati in naonite."
+msgstr "Rottami di Naonite che possono essere raffinati in Naonite."
 
 #: goods_template.xml:
 msgid "Scrap Trinium"
 msgid_plural "Scrap Trinium"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rottami di Trinium"
+msgstr[1] "Rottami di Trinium"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Scrap Trinium"
-msgstr "Rottami di trinium"
+msgstr "Rottami di Trinium"
 
 #: goods_template.xml:
 msgid "Scrap Trinium that can be refined into Trinium."
-msgstr "Rottami di trinium che possono essere raffinati in trinium."
+msgstr "Rottami di Trinium che possono essere raffinati in Trinium."
 
 #: goods_template.xml:
 msgid "Scrap Xanion"
 msgid_plural "Scrap Xanion"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rottami di Xanion"
+msgstr[1] "Rottami di Xanion"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Scrap Xanion"
-msgstr "Rottamazione di Xanion"
+msgstr "Rottami di Xanion"
 
 #: goods_template.xml:
 msgid "Scrap Xanion that can be refined into Xanion."
-msgstr "Scarti di Xanion che possono essere raffinati in Xanion."
+msgstr "Rottami di Xanion che possono essere raffinati in Xanion."
 
 #: goods_template.xml:
 msgid "Scrap Ogonite"
 msgid_plural "Scrap Ogonite"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rottami di Ogonite"
+msgstr[1] "Rottami di Ogonite"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Scrap Ogonite"
-msgstr "Ogonite di scarto"
+msgstr "Rottami di Ogonite"
 
 #: goods_template.xml:
 msgid "Scrap Ogonite that can be refined into Ogonite."
-msgstr "Scarti di Ogonite che possono essere raffinati in Ogonite."
+msgstr "Rottami di Ogonite che possono essere raffinati in Ogonite."
 
 #: goods_template.xml:
 msgid "Scrap Avorion"
 msgid_plural "Scrap Avorion"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Rottami di Avorion"
+msgstr[1] "Rottami di Avorion"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Scrap Avorion"
-msgstr "Scrap Avorion"
+msgstr "Rottami di Avorion"
 
 #: goods_template.xml:
 msgid "Scrap Avorion that can be refined into Avorion."
-msgstr "Avorion di scarto che può essere raffinato in Avorion."
+msgstr "Rottami di Avorion che possono essere raffinati in Avorion."
 
 #: goods_template.xml:
 msgid "Rift Research Data"
 msgid_plural "Rift Research Data"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dati di Ricerca sul Rifts"
+msgstr[1] "Dati di Ricerca sul Rifts"
 
 #: goods_template.xml:
 msgctxt "prefix"
 msgid "Rift Research Data"
-msgstr "Dati della ricerca Rift"
+msgstr "Dati di Ricerca sul Rifts"
 
 #: goods_template.xml:
 msgid ""
 "A memory device with valuable research data about subspace rifts. Can be "
 "traded for equipment or sold for money at a Rift Research Center."
 msgstr ""
-"Un dispositivo di memoria con preziosi dati di ricerca sulle spaccature "
-"subspaziali. Può essere scambiato con attrezzature o venduto in cambio di "
-"denaro presso un Centro di Ricerca Rift."
+"Un dispositivo di memoria con preziosi dati di ricerca sui rift "
+"subspaziali. Può essere scambiato per equipaggiamenti o venduto per "
+"denaro presso un Centro di Ricerca sui Rifts."
 
 #: goods_template.xml:
 msgid "${good} Mine ${size}"
-msgstr "${buono} Mio ${size}"
+msgstr "${good} Miniera ${size}"
 
 #: goods_template.xml:
 msgid "Gas Collector ${size}"
-msgstr "Collettore di gas ${size}"
+msgstr "Collettore di Gas ${size}"
 
 #: goods_template.xml:
 msgid "Oil Rig ${size}"
@@ -79647,19 +79642,19 @@ msgstr "Piattaforma petrolifera ${size}"
 
 #: goods_template.xml:
 msgid "${good} Farm ${size}"
-msgstr "${buono} Fattoria ${size}"
+msgstr "${good} Farm ${size}"
 
 #: goods_template.xml:
 msgid "${good} Extractor ${size}"
-msgstr "${buono} Estrattore ${size}"
+msgstr "${good} Estrattore ${size}"
 
 #: goods_template.xml:
 msgid "${good} Trader ${size}"
-msgstr "${buono} Commerciante ${size}"
+msgstr "${good} Commerciante ${size}"
 
 #: goods_template.xml:
 msgid "${good} Refinery ${size}"
-msgstr "${buono} Raffineria ${size}"
+msgstr "${good} Raffineria ${size}"
 
 #: goods_template.xml:
 msgid "Noble Metal Mine ${size}"
@@ -79675,11 +79670,11 @@ msgstr "Impianto solare ${size}"
 
 #: goods_template.xml:
 msgid "${good} Factory ${size}"
-msgstr "${buono} Fabbrica ${size}"
+msgstr "${good} Fabbrica ${size}"
 
 #: goods_template.xml:
 msgid "${good} Manufacturer ${size}"
-msgstr "${buono} Produttore ${size}"
+msgstr "${good} Produttore ${size}"
 
 #: goods_template.xml:
 msgid "Chemical Factory ${size}"
@@ -79703,7 +79698,7 @@ msgstr "Fabbrica di bobine Tesla ${size}"
 
 #: goods_template.xml:
 msgid "${good} Collector ${size}"
-msgstr "${buono} Collettore ${size}"
+msgstr "${good} Collettore ${size}"
 
 #: goods_template.xml:
 msgid "Fish Farm ${size}"
